@@ -1,0 +1,19 @@
+/* 
+  InfoPlist.strings
+  Wallet
+  多语言控制
+  Created by Ying on 2018/10/25.
+  Copyright © 2018 Ying. All rights reserved.
+*/
+
+// Localizable App Name是App在英语环境环境下显示的名称
+CFBundleDisplayName = "DropWallet";
+"TotalAsset.text" = "ToTal Assets";
+"Me.text" = "Me";
+"Wallet.text" = "Wallet";
+"WalletManage.text" = "Wallet management";
+"AddWallet.text" = "Add Wallet";
+"CreateWallet.text" = "Create Wallet";
+"ImportWallet.text" = "Import Wallet";
+"Privacy.text" = "我已阅读并同意《服务及隐私条款》";
+"SetPasswordMessage.text" = "note! Drips does not store user passwords and cannot provide retrieval or rework. If you forget your password, you can only set a new password after re-importing through your backup wallet mnemonic or private key.";
