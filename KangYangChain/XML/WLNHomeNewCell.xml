@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<UIView layout="flex:1" attr="@:css/colors">
+
+    <UIView layout="flexDirection:row,alignItems:center" attr="bgColor:white">
+    
+
+        <UIView layout="flex:1,margin:10" attr="">
+
+            <UIView layout="flexDirection:row,justifyContent:space-between,marginRight:10">
+
+                <UIView layout="flexDirection:row," attr="">
+                    <UILabel name="bizhongLab" attr="font:bold|17,text:BTC" />
+                    <UILabel name="bizhong2Lab" attr="text:/USDT,color:gray,fontSize:15"/>    
+                </UIView>
+                
+                <UILabel name="moneyLab" layout="" attr="font:bold|17,color:#333333,linesNum:0,text:"/>
+
+
+            </UIView>
+            
+            <UIView layout="flexDirection:row,justifyContent:space-between,marginRight:10">
+
+                <UILabel name="dealCountLab" attr="color:gray,font:12,text:成交量xxx,alpha:0"/>
+                <UILabel name="money2Lab" attr="color:gray,font:12,text:6556.0"/>
+
+            </UIView>
+
+        </UIView>
+        
+        <UIView name="waveView" layout="justifyContent:center,marginRight:10" attr="borderRadius:3,clipsToBounds:true">
+            
+            <UILabel name="waveLab" layout="margin:6" attr="color:white,font:12,text:+1.56%" />
+
+        </UIView>
+
+    </UIView>
+
+    <UILabel name="" layout="height:1" attr="fontSize:14,@css/colors,linesNum:0,text:"/>
+
+</UIView>

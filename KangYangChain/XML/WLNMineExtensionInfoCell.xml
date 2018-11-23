@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+
+<UIView layout="flex:1, flexDirection:row,alignItems:center,height:44" attr="">
+
+    <UILabel name="timeLab" layout="width:20%" attr="fontSize:12,color:#333333,linesNum:0,text:2018.1.1,
+    textAlign:center"/>
+    <UILabel name="numLab" layout="width:20%" attr="fontSize:12,color:#333333,linesNum:0,text:1000,
+     textAlign:center"/>
+    <UILabel name="typesLab" layout="width:20%" attr="fontSize:12,color:#333333,linesNum:0,text:买入,
+     textAlign:center"/>
+    <UILabel name="statusLab" layout="width:20%" attr="fontSize:12,color:#333333,linesNum:0,text:匹配中,
+     textAlign:center"/>
+
+    <FlexTouchView name="sellView" onPress="sellAction" layout="width:20%,height:25,justifyContent:center,alignItems:center" attr="underlayColor:darkGray,bgColor:orange,
+    borderRadius:7">
+
+        <UILabel name="" layout="" attr="fontSize:12,color:white,linesNum:0,text:卖出"/>
+
+    </FlexTouchView>
+
+</UIView>

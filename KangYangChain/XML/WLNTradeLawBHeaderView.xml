@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!--
+   WLNTradeLawBHeaderView.xml
+   KangYangChain
+
+   Created by edz on 2018/10/27.
+   Copyright (c) 2018 furao. All rights reserved.
+-->
+<UIView layout="" attr="">
+
+    <UIView layout="flexDirection:row,justifyContent:space-around" attr="bgColor:white">
+
+
+        <FlexTouchView onPress="topAction:" layout="flexDirection:row,justifyContent:center,alignItems:center" attr="underlayColor:darkGray,
+        tag:1">
+            <UILabel name="" layout="margin:10" attr="fontSize:13,color:#333333,linesNum:0,text:所有金额"/>
+            <UIImageView attr="source:Arrow_down"/>
+        </FlexTouchView>
+
+        <FlexTouchView onPress="topAction:" layout="flexDirection:row,justifyContent:center,alignItems:center" attr="underlayColor:darkGray,
+        tag:2">
+            <UILabel name="" layout="margin:10" attr="fontSize:13,color:#333333,linesNum:0,text:所有方式"/>
+            <UIImageView attr="source:Arrow_down"/>
+        </FlexTouchView>
+
+    </UIView>
+
+    <UIView name="headBottomView" layout="flexDirection:row" attr="@:css/colors">
+        <UILabel name="canUserLab" layout="margin:5" attr="fontSize:12,color:#333333,linesNum:0,text:可用:--"/>
+        <UILabel name="freezeLab" layout="" attr="fontSize:12,color:#333333,linesNum:0,text:冻结:--"/>
+    </UIView>
+
+</UIView>
+
+

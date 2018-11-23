@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<UIView layout="" attr="@:css/colors">
+
+
+
+    <FlexTouchView onPress="tuiguangAction" layout="margin:10,marginTop:30,height:50,justifyContent:space-between,alignItems:center,flexDirection:row" attr="bgColor:white,borderRadius:7">
+    
+        <UIView layout="flexDirection:row,marginLeft:10,alignItems:center" attr=",">
+
+            <UIImageView attr="source:Topromote" layout=""/>
+            <UILabel name="" layout="marginLeft:10" attr="fontSize:14,color:black,linesNum:0,text:扫码赠送"/>
+
+        </UIView>
+
+        <UIImageView attr="source:goback" layout="width:5,height:10,marginRight:10"/>
+
+    </FlexTouchView>
+
+  <FlexTouchView onPress="fatieAction" layout="margin:10,marginTop:0,height:50,justifyContent:space-between,alignItems:center,flexDirection:row" attr="bgColor:white,borderRadius:7">
+    
+        <UIView layout="flexDirection:row,marginLeft:10,alignItems:center" attr=",">
+
+            <UIImageView attr="source:release" layout=""/>
+            <UILabel name="" layout="marginLeft:10" attr="fontSize:14,color:black,linesNum:0,text:发社区贴"/>
+
+        </UIView>
+
+        <UIImageView attr="source:goback" layout="width:5,height:10,marginRight:10"/>
+
+    </FlexTouchView>
+
+
+</UIView>
+
+
+
+
+
+
+

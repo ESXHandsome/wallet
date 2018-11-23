@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!--
+   WLNOrderCell.xml
+   KangYangChain
+
+   Created by edz on 2018/10/18.
+   Copyright (c) 2018 furao. All rights reserved.
+-->
+<UIView layout="" attr="">
+
+    <UIView layout="height:40,marginLeft:10,marginRight:10,flexDirection:row,justifyContent:space-around" attr="">
+
+        <UILabel name="timeLab" layout="" attr="fontSize:14,color:#333333,linesNum:0,text:2018.0.0"/>
+        <UILabel name="addressLab" layout="" attr="fontSize:14,color:#333333,linesNum:0,text:0.01"/>
+        <UILabel name="numLab" layout="" attr="fontSize:14,color:#333333,linesNum:0,text:BTC"/>
+        <UILabel name="toAddressLab" layout="" attr="fontSize:14,color:#333333,linesNum:0,text:买入"/>
+        <UILabel name="" layout="" attr="fontSize:14,color:#333333,linesNum:0,text:0.01"/>
+        <UILabel name="" layout="" attr="fontSize:14,color:#333333,linesNum:0,text:成功"/>  
+
+    </UIView>
+
+</UIView>

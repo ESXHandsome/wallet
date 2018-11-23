@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<UIImageView attr="source:tuceng,userInteractionEnabled:true" layout="">
+
+    <UIView layout="justifyContent:center,alignItems:center,marginTop:60" attr="">
+
+        <FlexTouchView onPress="click:" layout="" attr="tag:7">
+
+            <UIImageView name="headImg" attr="source:,borderRadius:40,clipsToBounds:true" layout="width:80,height:80"/>
+
+        </FlexTouchView>
+
+        <FlexTouchView onPress="click:" layout="width:50%,alignItems:center" attr="tag:6">
+
+            <UILabel name="nameLab" layout="marginTop:10" attr="fontSize:14,color:white,linesNum:0,text:高进>"/>
+
+        </FlexTouchView>
+
+    </UIView>
+
+    <UIView layout="flexDirection:row,flexWrap:wrap,margin:10,marginTop:20,marginBottom:0" attr="bgColor:white,borderRadius:7">
+        <FlexTouchView name="" layout="width:25%,marginTop:10, height:60,alignItems:center" attr="tag:0" onPress="click:">
+            <UIImageView attr="source:rere" layout="marginTop:10" />
+            <UILabel name="" layout="marginTop:10" attr="fontSize:14,color:#333333,linesNum:0,text:@商学院"/>
+        </FlexTouchView>
+
+        <FlexTouchView name="" layout="width:25%,marginTop:10, height:60,alignItems:center" attr="tag:1" onPress="click:">
+            <UIImageView attr="source:shequ" layout="marginTop:10" />
+            <UILabel name="" layout="marginTop:10" attr="fontSize:14,color:#333333,linesNum:0,text:@我的社区"/>
+        </FlexTouchView>
+
+        <FlexTouchView name="" layout="width:25%,marginTop:10, height:60,alignItems:center" attr="tag:2" onPress="click:">
+            <UIImageView attr="source:dingdan" layout="marginTop:10" />
+            <UILabel name="" layout="marginTop:10" attr="fontSize:14,color:#333333,linesNum:0,text:@我的订单"/>
+        </FlexTouchView>
+
+        <FlexTouchView name="" layout="width:25%,marginTop:10,marginBottom:10 ,height:60,alignItems:center" attr="tag:3" onPress="click:">
+            <UIImageView attr="source:address" layout="marginTop:10" />
+            <UILabel name="" layout="marginTop:10" attr="fontSize:14,color:#333333,linesNum:0,text:@我的地址"/>
+        </FlexTouchView>
+    
+
+    </UIView>
+
+</UIImageView>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!--
+   WLNRechargeView.xml
+   KangYangChain
+
+   Created by furao on 2018/11/18.
+   Copyright (c) 2018年 furao. All rights reserved.
+-->
+
+<UIView layout="flex:1" attr="@:css/colors">
+    
+    <UIView layout="margin:10,flexDirection:row" attr="bgColor:white,borderRadius:7">
+        
+        <UIView layout="" attr="">
+            
+            
+            <UILabel name="" layout="margin:15" attr="fontSize:14,color:#333333,linesNum:0,text:数量(GHB)"/>
+            
+            <UILabel name="" layout="height:1,flex:1" attr="fontSize:14,@:css/colors,linesNum:0,text:"/>
+            
+            <UILabel name="" layout="margin:15" attr="fontSize:14,color:#333333,linesNum:0,text:充值比例"/>
+            
+            <UILabel name="" layout="height:1,flex:1" attr="fontSize:14,@:css/colors,linesNum:0,text:"/>
+            
+            
+            <UILabel name="" layout="margin:15" attr="fontSize:14,color:#333333,linesNum:0,text:金额(USDT)"/>
+            
+            <UILabel name="" layout="height:1,flex:1" attr="fontSize:14,@:css/colors,linesNum:0,text:"/>
+            
+            <UILabel name="" layout="margin:15" attr="fontSize:14,color:#333333,linesNum:0,text:交易说明"/>
+            
+            
+        </UIView>
+        
+        
+        
+        <UIView layout="flex:1" attr="">
+            
+            <UITextField name="numTxt" layout="margin:15" attr="fontSize:14,color:black,textAlign:left,placeholder:请输入充值数量,text:"/>
+            
+            <UILabel name="" layout="height:1,flex:1" attr="fontSize:14,@:css/colors,linesNum:0,text:"/>
+            
+            <UILabel name="" layout="margin:15" attr="fontSize:14,color:gray,linesNum:0,text:1"/>
+            
+            <UILabel name="" layout="height:1,flex:1" attr="fontSize:14,@:css/colors,linesNum:0,text:"/>
+            
+            <UILabel name="usdtLab" layout="margin:15" attr="fontSize:14,color:gray,linesNum:0,text:0.00"/>
+            
+            <UILabel name="" layout="height:1,flex:1" attr="fontSize:14,@:css/colors,linesNum:0,text:"/>
+            
+            <UILabel name="" layout="margin:15" attr="fontSize:14,color:gray,linesNum:0,text:xxxxxxxxxxxxxxxxxxxx"/>
+            
+        </UIView>
+        
+        
+        
+        
+        
+    </UIView>
+    
+    <FlexTouchView onPress="sureAction" layout="height:44,margin:20,justifyContent:center,alignItems:center" attr="underlayColor:darkGray,@:css/cusBlue,borderRadius:7,
+        ">
+        
+        <UILabel name="" layout="" attr="fontSize:14,color:white,linesNum:0,text:确定"/>
+        
+    </FlexTouchView>
+    
+</UIView>

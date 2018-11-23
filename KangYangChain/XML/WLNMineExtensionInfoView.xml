@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+
+<UIView layout="" attr="">
+
+    <UIView layout="flexDirection:row,alignItems:center,marginTop:10" attr="bgColor:white">
+
+        <FlexTouchView onPress="shenqing:" layout="marginLeft:15,height:40,justifyContent:center" attr="underlayColor:darkGray">
+            <UILabel name="shenqingLab" layout="" attr="fontSize:15,color:black,linesNum:0,text:报单详情"/>
+        </FlexTouchView>
+
+    </UIView>
+
+
+    <UIView layout="flexDirection:row,height:40,marginTop:3" attr="bgColor:white">
+
+        <UILabel name="" layout="width:20%" attr="fontSize:14,color:#333333,linesNum:0,text:时间,textAlign:center"/>
+        <UILabel name="" layout="width:20%" attr="fontSize:14,color:#333333,linesNum:0,text:数额,textAlign:center"/>
+        <UILabel name="" layout="width:20%" attr="fontSize:14,color:#333333,linesNum:0,text:类型,textAlign:center"/>
+        <UILabel name="" layout="width:20%" attr="fontSize:14,color:#333333,linesNum:0,text:状态,textAlign:center"/>
+        <UILabel name="" layout="width:20%" attr="fontSize:14,color:#333333,linesNum:0,text:查看,alpha:0,textAlign:center"/>
+    
+    </UIView>
+
+
+</UIView>

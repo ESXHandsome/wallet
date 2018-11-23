@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!--
+   WLNMineGForumDetailCell.xml
+   KangYangChain
+
+   Created by edz on 2018/11/7.
+   Copyright (c) 2018 furao. All rights reserved.
+-->
+<UIView layout="flex:1" attr="@:css/colors">
+
+   <UIView layout="margin:10,marginTop:0" attr="bgColor:white,borderRadius:5,clipsToBounds:true">
+
+       <UIView layout="flexDirection:row,margin:15" attr="">
+
+           <UIImageView name="headImg" attr="source:,borderRadius:15,clipsToBounds:true" layout="width:30,height:30" />
+
+           <UIView layout="marginLeft:10" attr="">
+
+                <UILabel name="nameLab" layout="" attr="fontSize:14,color:#333333,linesNum:0,text:"/>
+               <UILabel name="remarkLab" layout="" attr="fontSize:12,color:#D0D0D0,linesNum:0,text:"/>
+
+           </UIView>
+
+       </UIView>
+
+
+        <UIImageView name="contentImg" attr="source:" layout="width:150,height:150,margin:10,marginTop:0" />
+
+     
+        <UILabel name="contentLab" layout="margin:10,marginTop:0" attr="font:14,color:black,linesNum:0"/>
+
+
+        <UIView layout="flexDirection:row,justifyContent:space-between,margin:10" attr="">
+
+             <UILabel name="lookLab" layout="" attr="fontSize:12,color:#333333,linesNum:0,text:"/>
+
+
+            <UIView layout="flexDirection:row" attr="">
+
+                <UIImageView attr="source:exceptional" layout="marginRight:5"/>
+                <UILabel name="leftLab" layout="marginRight:5" attr="fontSize:12,color:#D0D0D0,linesNum:0,text:"/>
+                <UIImageView attr="source:givealike" layout="marginRight:5"/>
+                <UILabel name="centerLab" layout="marginRight:5" attr="fontSize:12,color:#D0D0D0,linesNum:0,text:"/>
+                <UIImageView attr="source:comment" layout="marginRight:5"/>
+                <UILabel name="rightLab" layout="" attr="fontSize:12,color:#D0D0D0,linesNum:0,text:"/>
+
+            </UIView>
+
+        </UIView>
+
+        
+
+   </UIView>
+
+</UIView>

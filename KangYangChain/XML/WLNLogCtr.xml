@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<UIImageView attr="source:background,userInteractionEnabled:true" layout="flex:1" >
+    <UIView layout="alignItems:center,margin:80,marginBottom:40" attr="">
+        <UIImageView attr="source:btcicon" layout="width:100,height:100"/>
+    </UIView>
+
+    <UIView layout="flexDirection:row,marginLeft:50,marginRight:50,height:44,alignItems:center" attr="bgColor:#7A7A7A,borderRadius:7">
+        <UIImageView attr="source:accountlog" layout=",marginLeft:15" />
+        <UITextField name="phoneT" layout="flex:1,height:44,marginLeft:10" attr="keyboardType:numberPad,fontSize:15,color:white,textAlign:left,placeholder:@手机号"/>
+
+    </UIView>
+
+
+    
+    <UIView layout="flexDirection:row,marginLeft:50,marginRight:50,marginTop:15,height:44,alignItems:center" attr="bgColor:#7A7A7A,borderRadius:7">
+    
+        <UIImageView attr="source:Login_lock" layout=",marginLeft:15"/>
+        <UITextField name="pwdT" layout="flex:1, height:44,marginLeft:10" attr="secureTextEntry:true,borderRadius:7,fontSize:15,color:white,textAlign:left,placeholder:@密码,bgColor:#7A7A7A"/>
+        <FlexTouchView onPress="hideAction:" layout="height:44,width:40,justifyContent:center,alignItems:center" attr="underlayColor:darkGray">
+
+            <UIImageView  attr="source:display" layout="height:10,width:15"/>
+
+        </FlexTouchView>
+
+    </UIView>
+    
+    <UIView layout="flexDirection:row,justifyContent:space-between,marginTop:10,marginLeft:50,marginRight:50" attr="">
+        <FlexTouchView onPress="forgetAction">
+            <UILabel name="" layout="" attr="fontSize:15,color:white,linesNum:0,text:@忘记密码?"/>
+        </FlexTouchView>
+        
+        <UIView layout="flexDirection:row" attr="hidden:true">
+            
+            <FlexTouchView>
+                <UILabel name="" layout="" attr="fontSize:15,color:white,linesNum:0,text:@没有账号?"/>
+            </FlexTouchView>
+            
+            <FlexTouchView onPress="registerAction" attr="underlayColor:darkGray" >
+                <UILabel name="" layout="" attr="fontSize:15,color:orange,linesNum:0,text:@去注册"/>
+            </FlexTouchView>
+            
+        </UIView>
+        
+    </UIView>
+    
+    
+    <FlexTouchView name="" layout="margin:50,height:44,justifyContent:center" attr="bgColor:white,borderRadius:7,underlayColor:darkGray"
+        onPress="logAction">
+        <UILabel name="" layout="" attr="fontSize:15,color:#333333,linesNum:0,text:@登录,textAlign:center"/>
+    </FlexTouchView>
+    
+    
+    <!-- <UIView layout="flexDirection:row,margin:30,justifyContent:center,alignItems:center" attr="">
+        <UILabel name="" layout="width:80,height:3,marginRight:10" attr="fontSize:15,color:white,linesNum:0,bgColor:white,text:"/>
+        <UILabel name="" layout="" attr="fontSize:15,color:white,linesNum:0,text:第三方快捷登录"/>
+        <UILabel name="" layout="width:80,height:3,marginLeft:10" attr="fontSize:15,color:white,linesNum:0,bgColor:white,text:"/>
+    </UIView>
+    
+    <UIView layout="flexDirection:row,justifyContent:center" >
+        
+        <FlexTouchView layout="width:80,alignItems:center" >
+            <UIImageView attr="source:qq" layout=""/>
+        </FlexTouchView>
+        
+        <FlexTouchView layout="width:80,alignItems:center">
+            <UIImageView attr="source:wechat" layout=""/>
+        </FlexTouchView>
+        
+    </UIView> -->
+    
+    
+</UIImageView>

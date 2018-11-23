@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!--
+   WLNReceiveMoneyView.xml
+   KangYangChain
+
+   Created by edz on 2018/11/17.
+   Copyright (c) 2018 furao. All rights reserved.
+-->
+<UIView layout="flex:1" attr="@:css/colors">
+
+    <UIView layout="margin:10" attr="@:css/shadows,bgColor:white,borderRadius:7">
+
+        <UIView layout="flexDirection:row" attr="justifyContent:center">
+            <UILabel name="" layout="margin:13" attr="fontSize:14,color:#4A63C6,linesNum:0,text:币种"/>
+
+            <FlexTouchView onPress="chooseBListAction:" layout="flex:1,margin:10,marginRight:20,flexDirection:row,alignItems:center,justifyContent:
+            space-between" attr="underlayColor:darkGray,borderRadius:17,
+            borderColor:#4A63C6,borderWidth:1">
+                <UILabel name="currentBLab" layout="margin:10" attr="fontSize:14,color:#4A63C6,linesNum:0,text:请选择币种"/>
+                <UIImageView attr="source:Arrow_down_white" layout="marginRight:10"/>
+            </FlexTouchView>
+        </UIView>
+
+        <UILabel name="" layout="height:1,margin:10,marginTop:0" attr="fontSize:14,@:css/colors,linesNum:0,text:"/>
+
+
+        <UIView layout="alignItems:center" attr="">
+
+            <UIImageView name="img" attr="source:," layout="width:130,height:130,marginTop:20"/>
+
+            <UILabel name="addressLab" layout="margin:10" attr="fontSize:14,color:#333333,linesNum:0,text:--"/>
+            <FlexTouchView onPress="copyAddressAction" layout="height:30,width:130,justifyContent:center,alignItems:center,margin:10" attr="underlayColor:darkGray,bgColor:#C74B52,
+            borderRadius:15">
+                <UILabel name="" layout="" attr="fontSize:14,color:white,linesNum:0,text:复制地址"/>
+            </FlexTouchView>
+        </UIView>
+
+    
+
+        <UILabel name="" layout="height:1,margin:10" attr="fontSize:14,@:css/colors,linesNum:0,text:"/>
+
+        <UILabel name="bottomLab" layout="margin:10" attr="fontSize:14,color:#333333,linesNum:0,text:--"/>
+
+
+
+
+
+    </UIView>
+
+
+</UIView>

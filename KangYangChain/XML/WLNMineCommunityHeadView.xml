@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<UIView layout="" attr="bgColor:red">
+
+    <UIImageView attr="source:Snip20181004_37,userInteractionEnabled:true" layout="flex:1">
+
+        <UIView layout="" attr="">
+
+            <UIView layout="flexDirection:row,justifyContent:space-around" attr="">
+
+                <UIView layout="flexDirection:row,marginTop:30" attr="">
+
+                    <UIImageView name="headImg" attr="source:,borderRadius:40,clipsToBounds:true" layout="width:80,height:80"/>
+
+                    <UIView layout="justifyContent:center,marginLeft:15" attr="">
+                        <UILabel name="nameLab" layout="height:25" attr="fontSize:12,color:white,linesNum:0,text:--"/>
+                        <UILabel name="scoreLab" layout="height:25" attr="fontSize:12,color:white,linesNum:0,text:--"/>
+
+                        <FlexTouchView onPress="integralAction" layout="" attr="underlayColor:darkGray,bgColor:#FF5452,borderRadius:12.5,clipsToBounds:true">
+
+                            <UILabel name="" layout="height:25,marginLeft:10,marginRight:10" attr="fontSize:12,color:white,linesNum:0,text:赚取更多的积分"/>
+
+                        </FlexTouchView>
+
+                    </UIView>
+
+                </UIView>
+
+                <UIImageView attr="source:qiandoa" layout="marginTop:30,width:80,height:80,justifyContent:center">
+                    <UIView layout="alignItems:center,justifyContent:center,marginTop:10" attr="">
+                        <UILabel name="" layout="" attr="fontSize:10,color:gray,linesNum:0,text:已经连续签到"/>
+                        <UILabel name="signLab" layout="" attr="fontSize:15,color:#333333,linesNum:0,text:"/>
+                    </UIView>
+                </UIImageView>
+                
+
+            </UIView>
+
+            <UIView layout="margin:20,height:110" attr="bgColor:white,borderRadius:7">
+                    
+                <FlexScrollView name="signScView" layout="flex:1" attr="vertScroll:true">
+                
+                </FlexScrollView>
+
+            </UIView>
+
+        
+
+        </UIView>
+
+
+
+    </UIImageView>
+
+
+</UIView>

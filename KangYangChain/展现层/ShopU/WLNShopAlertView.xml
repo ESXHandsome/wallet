@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!--
+   WLNShopAlertView.xml
+   KangYangChain
+
+   Created by furao on 2018/10/12.
+   Copyright (c) 2018年 furao. All rights reserved.
+-->
+
+<UIView layout="height:300,flex:1" attr="bgColor:red">
+
+    <UIView layout="flexDirection:space-around" attr="">
+        <UIImageView attr="source:Snip20181003_20" layout="width:100,height:100"/>
+        <UIView layout="" attr="">
+            <UILabel name="" layout="" attr="fontSize:14,color:#333333,linesNum:0,text:huxi 呼吸 bad 主题抱枕一只装"/>
+            <UILabel name="" layout="" attr="fontSize:14,color:#333333,linesNum:0,text:GHB:158"/>
+        </UIView>
+    </UIView>
+
+    <FlexTouchView onPress="" layout="margin:30,height:40" attr="underlayColor:darkGray,bgColor:#4062FD">
+        <UILabel name="" layout="" attr="fontSize:14,color:#333333,linesNum:0,text:确认支付"/>
+    </FlexTouchView>
+
+    
+</UIView>

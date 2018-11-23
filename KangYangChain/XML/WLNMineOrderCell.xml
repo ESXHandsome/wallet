@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<UIView layout="" attr="@:css/colors">
+
+    <UIView layout="margin:10,marginBottom:0" attr="bgColor:white,borderRadius:7">
+        <UILabel name="" layout="marginTop:20,marginLeft:10" attr="fontSize:14,color:#333333,linesNum:0,text:订单号:2012123456467"/>
+        <UIView layout="flexDirection:row,margin:10" attr="">
+            <UIImageView attr="source:Snip20181003_35" layout="width:100,height:100"/>
+            <UIView layout="justifyContent:space-between" attr="">
+                <UILabel name="" layout="" attr="fontSize:14,color:#333333,linesNum:0,text:五星级豪华抱枕"/>
+                <UILabel name="" layout="" attr="fontSize:14,color:#333333,linesNum:0,text:65.00"/>
+            </UIView>
+
+        </UIView>
+        <UILabel name=" " layout="flex:1,height:3" attr="fontSize:14,@:css/colors,linesNum:0,text:"/>
+        <UIView layout="flexDirection:row,margin:5,justifyContent:space-between" attr="" >
+            <UILabel name="" layout="" attr="fontSize:14,color:#333333,linesNum:0,text:共件1件"/>
+            <UILabel name="" layout="" attr="fontSize:14,color:#333333,linesNum:0,text:合计:11(含运费)"/>   
+        </UIView>
+        <UILabel name=" " layout="flex:1,height:3" attr="fontSize:14,@:css/colors,linesNum:0,text:"/>
+
+        <FlexTouchView layout="margin:10,height40,alignItems:flex-end" attr="">
+            <UILabel name="" layout="width:70,height:30" attr="borderRadius:5,clipsToBounds:true, fontSize:14,color:white,linesNum:0,text:代发货,bgColor:#F76965,textAlign:center"/>
+        </FlexTouchView>
+
+
+    </UIView>
+
+
+</UIView>

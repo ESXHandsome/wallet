@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!--
+   WLNMoneyConfirmView.xml
+   KangYangChain
+
+   Created by edz on 2018/11/14.
+   Copyright (c) 2018 furao. All rights reserved.
+-->
+
+<UIView layout="" attr="bgColor:white,@:css/shadows,borderRadius:7">
+
+        <UILabel name="titleLab" layout="margin:20,flex:1" attr="font:bold|14,color:#333333,linesNum:0,text:确认线下付款,
+        textAlign:center"/>
+        <UIView layout="flexDirection:row,justifyContent:space-between" attr="">
+            <UIView layout="" attr="">
+                <UILabel name="priceWordLab" layout="margin:13,marginTop:0" attr="fontSize:14,color:#333333,linesNum:0,text:支付金额"/>
+                <UILabel name="payTypeWordLab" layout="margin:13,marginTop:0" attr="fontSize:14,color:#333333,linesNum:0,text:付款方式"/>
+
+            </UIView>
+            <UIView layout="" attr="">
+                <UILabel name="priceLab" layout="margin:13,marginTop:0" attr="fontSize:14,color:#333333,linesNum:0,text:--"/>
+                <UILabel name="payTypeLab" layout="margin:13,marginTop:0" attr="fontSize:14,color:#333333,linesNum:0,text:--"/>
+            </UIView>
+        </UIView>
+   
+        <UILabel name="contentLab" layout="margin:13,marginTop:0" attr="fontSize:13,color:gray,linesNum:0,text:如果已经付款\,请点击 我已付款 "/>
+
+        <UIView layout="flexDirection:row,flex:1,marginTop:20" attr="">
+
+            <FlexTouchView onPress="cancelAction" layout="flex:1" attr="underlayColor:darkGray,borderWidth:0.3,borderColor:gray">
+                <UILabel name="" layout="margin:13" attr="fontSize:14,color:#333333,linesNum:0,text:取消,
+                textAlign:center"/>
+            </FlexTouchView>
+
+            <FlexTouchView onPress="doneAction" layout="flex:1" attr="underlayColor:darkGray,borderWidth:0.3,borderColor:gray">
+                <UILabel name="doneLab" layout="margin:13" attr="fontSize:14,color:#4896E8,linesNum:0,text:我已付款,
+                textAlign:center"/>
+            </FlexTouchView>
+
+        </UIView>
+
+
+</UIView>
+

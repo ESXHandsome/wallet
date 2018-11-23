@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!--
+   WLNTradeLawBuyCell.xml
+   KangYangChain
+
+   Created by edz on 2018/13/25.
+   Copyright (c) 2018 furao. All rights reserved.
+-->
+<UIView layout="" attr="@:css/colors">
+
+    <UIView layout="flexDirection:row,justifyContent:space-between,margin:5" attr="">
+
+    </UIView>
+
+    <UIView layout="flexDirection:row" attr="bgColor:white,@:css/shadows">
+
+        <UIView layout="" attr="">
+
+            <UILabel name="" layout="margin:13" attr="fontSize:14,color:#333333,linesNum:0,text:交易价格"/>
+
+            <UILabel name="" layout="height:1" attr="fontSize:14,@:css/colors,linesNum:0,text:"/>
+
+            <UILabel name="" layout="margin:13" attr="fontSize:14,color:#333333,linesNum:0,text:数量(USDT)"/>
+
+            <UILabel name="" layout="height:1" attr="fontSize:14,@:css/colors,linesNum:0,text:"/>
+
+            <UILabel name="" layout="margin:13" attr="fontSize:14,color:#333333,linesNum:0,text:金额(CNY)"/>
+
+        </UIView>
+
+        <UIView layout="flex:1" attr="">
+
+            <UILabel name="priceLab" layout="margin:13" attr="fontSize:14,color:#333333,linesNum:0,text:0.00"/>
+
+            <UILabel name="" layout="height:1" attr="fontSize:14,@:css/colors,linesNum:0,text:"/>
+
+            <UITextField name="priceTxt" layout="margin:13" attr="fontSize:14,color:black,textAlign:left,placeholder:请输入价格,text:"/>
+
+            <UILabel name="" layout="height:1" attr="fontSize:14,@:css/colors,linesNum:0,text:"/>
+
+            <UILabel name="minPriceLab" layout="margin:13" attr="fontSize:14,color:gray,linesNum:0,text:最小交易额为0.00"/>
+        </UIView>
+
+    </UIView>
+
+    <UIView layout="marginTop:13,flexDirection:row,alignItems:flex-start" attr="bgColor:white,@:css/shadows">
+        <UILabel name="" layout="margin:13" attr="fontSize:14,color:#333333,linesNum:0,text:交易说明"/>
+        <UILabel name="" layout="margin:13,flex:1" attr="fontSize:14,color:gray,linesNum:0,text:1.订单有效期为15分钟\,请及时付款并点击(我已支付)按钮 \n2.币有系统锁定托管\,请放心下单
+        "/>
+    </UIView>
+
+    <FlexTouchView onPress="gotoPay" layout="margin:20,justifyContent;center,alignItems:center" attr="underlayColor:darkGray,bgColor:#1E253D,
+    borderRadius:7">
+        <UILabel name="doneLab" layout="margin:13" attr="fontSize:14,color:white,linesNum:0,text:买入"/>
+    </FlexTouchView>
+
+
+</UIView>   

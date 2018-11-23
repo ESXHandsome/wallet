@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!--
+   WLNRechargeListHeadView.xml
+   KangYangChain
+
+   Created by edz on 2018/10/25.
+   Copyright (c) 2018 furao. All rights reserved.
+-->
+
+<UIView layout="" attr="">
+
+    <UIView layout="flexDirection:row,justifyContent:space-around" attr="@:css/colos">
+    
+        <FlexTouchView onPress="" layout="flexDirection:row,flex:1,alignItems:center" attr="underlayColor:darkGray,bgColor:white">
+            <UILabel name="" layout="margin:10" attr="fontSize:14,color:#333333,linesNum:0,text:时间"/>
+            <UIImageView attr="source:Arrow_down_white"/>
+        </FlexTouchView>
+
+        <FlexTouchView onPress="" layout="flexDirection:row,flex:1,alignItems:center" attr="underlayColor:darkGray,bgColor:white">
+            <UILabel name="" layout="margin:10" attr="fontSize:14,color:#333333,linesNum:0,text:币种"/>
+            <UIImageView attr="source:Arrow_down_white"/>
+        </FlexTouchView>
+
+
+
+
+    </UIView>
+
+
+    <UIView layout="flexDirection:row,justifyContent:space-around,marginTop:1,height:40" attr="bgColor:white">
+        <UILabel name="" layout="" attr="fontSize:14,color:#333333,linesNum:0,text:时间"/>
+        <UILabel name="" layout="" attr="fontSize:14,color:#333333,linesNum:0,text:币种"/>
+        <UILabel name="" layout="" attr="fontSize:14,color:#333333,linesNum:0,text:数量"/>
+        <UILabel name="" layout="" attr="fontSize:14,color:#333333,linesNum:0,text:状态"/>
+
+    </UIView>
+
+
+
+</UIView>
+

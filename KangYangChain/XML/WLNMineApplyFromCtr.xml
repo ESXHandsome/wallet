@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!--
+   WLNMineApplyFromCtr.xml
+   KangYangChain
+
+   Created by edz on 2018/10/15.
+   Copyright (c) 2018 furao. All rights reserved.
+-->
+<UIView layout="marginTop:30" attr="@:css/colors">
+
+
+        <UIView layout="flexDirection:row,height:40,marginTop:2" attr="bgColor:white">
+            <UILabel name="" layout="marginLeft:10" attr="fontSize:14,color:black,linesNum:0,text:数量(GHB)"/>
+            <UITextField name="countTxt" layout="marginLeft:10,flex:1" attr="fontSize:14,color:black,textAlign:left,placeholder:请输入交易数量,text:,
+            keyboardType:numberPad"/>
+        </UIView>
+
+        <UIView layout="flexDirection:row,height:40,marginTop:2" attr="bgColor:white">
+
+            <UILabel name="" layout="marginLeft:10" attr="fontSize:14,color:black,linesNum:0,text:利息"/>
+            <UILabel name="interestLab" layout="marginLeft:10" attr="fontSize:14,color:gray,linesNum:0,text:"/>
+
+        </UIView>
+
+        <UIView layout="flexDirection:row,height:40,marginTop:2" attr="bgColor:white">
+            <UILabel name="" layout="marginLeft:10" attr="fontSize:14,color:gray,linesNum:0,text:预计收益"/>
+            <UILabel name="shouyiLab" layout="marginLeft:10" attr="fontSize:14,color:gray,linesNum:0,text:0.00"/>
+        </UIView>
+
+
+    
+
+    <UILabel name="lowBuyLab" layout="margin:10" attr="fontSize:14,color:#333333,linesNum:0,text:最低可购买:0.0GHB"/>
+
+
+    <UIView layout="" attr="bgColor:white">
+        <UILabel name="" layout="margin:10,marginBottom:0" attr="fontSize:14,color:#333333,linesNum:0,text:交易说明"/>
+        <UILabel name="" layout="margin:10" attr="fontSize:11,color:#333333,linesNum:0,text:互助流程:\n买入后直接进入匹配中\,匹配到卖出时\,生成交易订单\,12小时不支付\,取消订单\,冻结买入排单\,卖出重新进入匹配中\,如交易成功会进入15天的收益期\n
+注意事项:\n 1. 必须有锁仓才能参与互助(1000起步上不封顶)\n 2. 互助成功给上级10% \,第二级5% \,金额烧伤\n 3. 未完成上一单不能参与下轮互助(1次只能参与一轮)\n 4. 互助排单金额不限制(1000起步\,必须是1000的整倍数)\n 5. 排单周期15天 周期结束后可卖出(1000*(1.1))"/>
+
+    </UIView>
+
+
+    <FlexTouchView onPress="buyAction" layout="margin:10,height:40,justifyContent:center,alignItems:center" attr="underlayColor:darkGray,bgColor:#1E253D,
+    borderRadius:7">
+        <UILabel name="" layout="" attr="fontSize:14,color:white,linesNum:0,text:发布"/>
+    </FlexTouchView>
+
+</UIView>
+
+

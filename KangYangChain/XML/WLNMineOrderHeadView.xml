@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<UIView layout="margin:10,flexDirection:row,height:40,justifyContent:space-around,alignItems:center" attr="bgColor:white,
+borderRadius:7">
+
+    <FlexTouchView layout="flexDirection:row">
+        <UIImageView attr="source:"/>
+        <UILabel name="" layout="" attr="fontSize:14,color:#333333,linesNum:0,text:全部"/>
+        
+    </FlexTouchView >
+
+
+    <FlexTouchView layout="flexDirection :row">
+        <UIImageView attr="source:"/>
+        <UILabel name="" layout="" attr="fontSize:14,color:#333333,linesNum:0,text:代发货"/>
+    </FlexTouchView >
+
+    <FlexTouchView layout="flexDirection :row">
+        <UIImageView attr="source:"/>
+        <UILabel name="" layout="" attr="fontSize:14,color:#333333,linesNum:0,text:待收货"/>
+              
+    </FlexTouchView>
+
+</UIView>

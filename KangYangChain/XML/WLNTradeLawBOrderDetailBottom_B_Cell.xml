@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!--
+   WLNTradeLawBOrderDetailBottom_B_Cell.xml
+   KangYangChain
+
+   Created by edz on 2018/11/14.
+   Copyright (c) 2018 furao. All rights reserved.
+-->
+<UIView layout="" attr="">
+
+    <UIView layout="flexDirection:row" attr="">
+
+    <UIView layout="flex:1" attr="">
+
+        <UILabel name="" layout="margin:13" attr="fontSize:14,color:#333333,linesNum:0,text:付款信息"/>
+
+        <UILabel name="" layout="margin:13,marginTop:0" attr="fontSize:14,color:#333333,linesNum:0,text:收款人"/>
+        <UILabel name="" layout="margin:13,marginTop:0" attr="fontSize:14,color:#333333,linesNum:0,text:支付方方式"/>
+        <UILabel name="" layout="margin:13,marginTop:0" attr="fontSize:14,color:#333333,linesNum:0,text:支付金额"/>
+        <UILabel name="" layout="margin:13,marginTop:0" attr="fontSize:14,color:#333333,linesNum:0,text:确认付款时间"/>
+        <UILabel name="" layout="margin:13,marginTop:0" attr="fontSize:14,color:#333333,linesNum:0,text:对方收款时间"/>
+
+    </UIView>
+
+    <UIView layout="" attr="">
+
+
+        <UILabel name="" layout="margin:13" attr="fontSize:14,color:#333333,linesNum:0,text:--,textAlign:right,
+        alpha:0"/>
+        <UILabel name="toUserLab" layout="margin:13,marginTop:0" attr="fontSize:14,color:#333333,linesNum:0,text:--,textAlign:right"/>
+        <UILabel name="payTypeLab" layout="margin:13,marginTop:0" attr="fontSize:14,color:#333333,linesNum:0,text:--,textAlign:right"/>
+        <UILabel name="payMoneyLab" layout="margin:13,marginTop:0" attr="fontSize:14,color:#333333,linesNum:0,text:--,textAlign:right"/>
+        <UILabel name="payTimeLab" layout="margin:13,marginTop:0" attr="fontSize:14,color:#333333,linesNum:0,text:--,textAlign:right"/>
+        <UILabel name="getMoneyTimeLab" layout="margin:13,marginTop:0" attr="fontSize:14,color:#333333,linesNum:0,text:--,textAlign:right"/>
+
+    </UIView>
+
+
+    </UIView>
+
+</UIView>
+

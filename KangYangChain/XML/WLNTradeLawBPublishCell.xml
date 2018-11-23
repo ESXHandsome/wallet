@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!--
+   WLNTradeLawBPublishCell.xml
+   KangYangChain
+
+   Created by edz on 2018/11/5.
+   Copyright (c) 2018 furao. All rights reserved.
+-->
+<UIView layout="" attr="@:css/colors">
+     
+
+    <UIView layout="flexDirection:row,justifyContent:space-between" attr="">
+        <UILabel name="" layout="margin:13,marginTop:5" attr="fontSize:13,color:#333333,linesNum:0,text:价格"/>
+        <UILabel name="usdtPriceLab" layout="margin:13,marginTop:5" attr="fontSize:13,color:#333333,linesNum:0,text:当前盘口价格:"/>
+    </UIView>
+
+    <UIView layout="flexDirection:row" attr="bgColor:white,@:css/shadows">
+       
+
+        <UIView layout="" attr="">
+
+            <UILabel name="" layout="margin:13" attr="fontSize:14,color:#333333,linesNum:0,text:定价方式"/>
+
+            <UILabel name="" layout="height:1" attr="fontSize:14,@:css/colors,linesNum:0,text:"/>
+
+            <UILabel name="fudongLab" layout="margin:13" attr="fontSize:14,color:#333333,linesNum:0,text:浮动比例"/>
+
+            <UILabel name="" layout="height:1" attr="fontSize:14,@:css/colors,linesNum:0,text:"/>
+
+            <UILabel name="" layout="margin:13" attr="fontSize:14,color:#333333,linesNum:0,text:交易价格"/>
+
+            <UILabel name="" layout="height:1" attr="fontSize:14,@:css/colors,linesNum:0,text:"/>
+
+            <UILabel name="" layout="margin:13" attr="fontSize:14,color:#333333,linesNum:0,text:数量(USDT)"/>
+
+            <UILabel name="" layout="height:1" attr="fontSize:14,@:css/colors,linesNum:0,text:"/>
+
+            <UILabel name="" layout="margin:13" attr="fontSize:14,color:gray,linesNum:0,text:金额(CNY)"/>
+
+            <UILabel name="" layout="height:1" attr="fontSize:14,@:css/colors,linesNum:0,text:"/>
+
+            <UILabel name="" layout="margin:13" attr="fontSize:14,color:#333333,linesNum:0,text:限额(CNY)"/>
+
+
+            
+        </UIView>
+        <UIView layout="flex:1" attr="">
+
+            <FlexTouchView onPress="choosePriceAction:" layout="flexDirection:row,alignItems:center,justifyContent:space-between" attr="underlayColor:darkGray">
+                <UILabel name="priceChooseTypeLab" layout="margin:13" attr="fontSize:14,color:#333333,linesNum:0,text:固定价格"/>
+                <UIImageView attr="source:Arrow_down" layout="marginRight:20"/>
+            </FlexTouchView>
+
+            <UILabel name="" layout="height:1" attr="fontSize:14,@:css/colors,linesNum:0,text:"/>
+
+            <UIView name="fudongView" layout="flexDirection:row,justifyContent:space-between" attr="">
+                <UITextField name="fudongTxt" layout="marginLeft:13,flex:1" attr="fontSize:14,color:black,textAlign:left,placeholder:默认130\,最高130,text:"/>
+                <UILabel name="" layout="margin:13,marginRight:20" attr="fontSize:14,color:#333333,linesNum:0,text:%"/>
+            </UIView>
+
+            <UILabel name="" layout="height:1" attr="fontSize:14,@:css/colors,linesNum:0,text:"/>
+            
+            <UIView layout="flexDirection:row" attr="">
+
+                <UILabel name="valueLab" layout="margin:13" attr="fontSize:14,color:#333333,linesNum:0,text:0.00"/>
+                <UILabel name="" layout="margin:13" attr="fontSize:14,color:#333333,linesNum:0,text:CNY"/>
+
+            </UIView>
+
+            <UILabel name="" layout="height:1" attr="fontSize:14,@:css/colors,linesNum:0,text:"/>
+            
+
+            <UITextField name="numTxt" layout="margin:13,flex:1" attr="fontSize:14,color:black,textAlign:left,placeholder:请输入交易数量,text:"/>
+
+            <UILabel name="" layout="height:1" attr="fontSize:14,@:css/colors,linesNum:0,text:"/>
+            
+            <UILabel name="zuixiaoeLab" layout="margin:13" attr="fontSize:14,color:gray,linesNum:0,text:最小交交易金额"/>
+
+            <UILabel name="" layout="height:1" attr="fontSize:14,@:css/colors,linesNum:0,text:"/>
+
+            <UIView layout="flexDirection:row,alignItems:center,margin:13" attr="">
+                <UITextField name="minTxt" layout="flex:1" attr="fontSize:14,color:black,textAlign:left,placeholder:单笔最低,text:"/>
+                <UILabel name="" layout="marginLeft:30,marginRight:30" attr="fontSize:14,color:#333333,linesNum:0,text:至"/>
+                <UITextField name="maxTxt" layout="flex:1" attr="fontSize:14,color:black,textAlign:left,placeholder:单笔最高,text:"/>
+            </UIView>
+
+
+            
+        </UIView>
+    </UIView>
+    
+    <UIView layout="flexDirection:row,justifyContent:space-between" attr="">
+        <UILabel name="" layout="margin:13" attr="fontSize:13,color:#333333,linesNum:0,text:买单保证金:130.0USDT"/>
+        <UILabel name="" layout="margin:13" attr="fontSize:13,color:#333333,linesNum:0,text:平台服务费0.0%"/>
+    </UIView>
+    
+    <UIView layout="flexDirection:row,alignItems:flex-start" attr="bgColor:white,@:css/shadows">
+        
+        <UILabel name="" layout="margin:13" attr="fontSize:14,color:#333333,linesNum:0,text:交易说明"/>
+        <UILabel name="" layout="margin:13,flex:1" attr="fontSize:14,color:gray,linesNum:0,text:1. 订单有效时间为15分钟\,请及时点击(我已支付)按钮 2. 币由系统锁定托管\,请安心下单"/>
+        
+        
+    </UIView>
+    
+    <FlexTouchView onPress="publishAction" layout="margin:20,justifyContent:center,alignItems:center," attr="underlayColor:darkGray,bgColor:#1E253D,
+        borderRadius:7">
+        <UILabel name="" layout="margin:13" attr="fontSize:14,color:white,linesNum:0,text:发布委托单"/>
+    </FlexTouchView>
+    
+    
+</UIView>

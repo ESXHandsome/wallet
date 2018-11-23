@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<UIView layout="" attr="@:css/colors">
+
+    <UIView layout="margin:10,marginTop:0,height:" attr="bgColor:white,borderRadius:7">
+
+         <UILabel name="questionLab" layout="margin:10" attr="fontSize:14,color:#333333,linesNum:0,text:Q:为什么最近暴涨1"/>
+         <UILabel name="answerLab" layout="margin:10,marginTop:0" attr="fontSize:12,color:gray,linesNum:0,text:content"/>
+    
+    </UIView>
+
+
+</UIView>
+
+
+

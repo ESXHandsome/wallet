@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!--
+   WLNTradeHoldCell.xml
+   KangYangChain
+
+   Created by edz on 2018/13/22.
+   Copyright (c) 2018 furao. All rights reserved.
+-->
+<UIView layout="" attr="@:css/colors">
+    
+
+    <UIView layout="margin:5" attr="bgColor:white,@:css/shadows,borderRadius:7">
+    
+    
+    <UIView layout="flexDirection:row,justifyContent:space-between" attr="">
+        <UILabel name="typeLab" layout="margin:13" attr="font:bold|15,color:green,linesNum:0,text:买涨/开多(BTC/USDT 20X)"/>
+        <UILabel name="timeLab" layout="margin:13" attr="fontSize:14,color:#333333,linesNum:0,text:--"/>
+    </UIView>
+
+    <UILabel name="" layout="height:1" attr="fontSize:14,@:css/colors,linesNum:0,text:"/>
+    
+    <UIView layout="flexDirection:row" attr="">
+
+        <UIView layout="width:33%" attr="">
+            <UILabel name="priceLab" layout="margin:13,marginBottom:0" attr="fontSize:14,color:#333333,linesNum:0,text:持仓价:"/>
+            <UILabel name="numLab" layout="margin:13,marginBottom:0" attr="fontSize:14,color:#333333,linesNum:0,text:持仓量:"/>
+            <UILabel name="maxlineLab" layout="margin:13" attr="fontSize:14,color:#333333,linesNum:0,text:止盈:"/>
+        </UIView>
+
+        <UIView layout="width:33%" attr="">
+            <UILabel name="amountLab" layout="margin:13,marginBottom:0" attr="fontSize:14,color:#333333,linesNum:0,text:冻结:"/>
+            <UILabel name="boom_priceLab" layout="margin:13,marginBottom:0" attr="fontSize:14,color:#333333,linesNum:0,text:强平价:"/>
+            <UILabel name="minlineLab" layout="margin:13" attr="fontSize:14,color:#333333,linesNum:0,text:止损:"/>
+
+        </UIView>
+
+        <UIView layout="width:33%" attr="">
+            <UILabel name="accessLab" layout="margin:13" attr="fontSize:14,color:#333333,linesNum:0,text:盈亏:"/>
+        </UIView>
+
+    </UIView>
+
+    <UILabel name="" layout="height:1" attr="fontSize:14,@:css/colors,linesNum:0,text:"/>
+
+    <UIView layout="flexDirection:row,justifyContent:space-around" attr="">
+
+        <FlexTouchView name="setView" onPress="setAction:" layout="margin:13" attr="underlayColor:darkGray,bgColor:orange,
+        borderRadius:3">
+            <UILabel name="" layout="margin:5" attr="fontSize:14,color:white,linesNum:0,text:调整止盈止损"/>
+        </FlexTouchView>
+
+        <FlexTouchView name="closeView" onPress="closeAction:" layout="margin:13" attr="underlayColor:darkGray,bgColor:orange,
+        borderRadius:3">
+            <UILabel name="" layout="margin:5" attr="fontSize:14,color:white,linesNum:0,text:平仓"/>
+        </FlexTouchView>
+
+    </UIView>
+    </UIView>
+
+
+    
+</UIView>

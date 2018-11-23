@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!--
+   WLNLockCell.xml
+   KangYangChain
+
+   Created by edz on 2018/10/15.
+   Copyright (c) 2018 furao. All rights reserved.
+-->
+<UIView layout="" attr="@:css/colors">
+
+    <UIView layout="margin:10,marginBottom:0" attr="bgColor:white,borderRadius:7">
+
+
+        <UIView layout="flexDirection:row,justifyContent:space-around,alignItems:center" attr="">
+            <UILabel name="" layout="margin:15" attr="fontSize:14,color:#333333,linesNum:0,text:GHB钱包"/>
+            <UIImageView attr="source:goback" />
+            <UILabel name="" layout="margin:15" attr="fontSize:14,color:#333333,linesNum:0,text:锁仓"/>
+        </UIView>
+
+        <UILabel name="" layout="height:1" attr="fontSize:14,@:css/colors,linesNum:0,text:"/>
+
+        <UIView layout="flexDirection:row" attr="">
+            <UILabel name="" layout="margin:15" attr="fontSize:14,color:#333333,linesNum:0,text:币种选择"/>
+            <UILabel name="" layout="flex:1" attr="fontSize:14,color:#333333,linesNum:0,text:GHB钱包"/>
+            <UIImageView attr="source:" layout="marginRight:10"/>
+        </UIView>
+
+        <UILabel name="" layout="height:1" attr="fontSize:14,@:css/colors,linesNum:0,text:"/>
+
+        <UIView layout="flexDirection:row" attr="">
+
+            <UILabel name="" layout="margin:15" attr="fontSize:14,color:#333333,linesNum:0,text:锁仓时间"/>
+            <UILabel name="" layout="" attr="fontSize:14,color:#333333,linesNum:0,text:请选择锁仓时间"/>
+
+        </UIView>
+
+        <UILabel name="" layout="height:1" attr="fontSize:14,@:css/colors,linesNum:0,text:"/>
+
+        <UIView layout="flexDirection:row," attr="">
+        
+            <UILabel name="" layout="margin:15" attr="fontSize:14,color:#333333,linesNum:0,text:输入数量"/>
+            <UITextField name="" layout="flex:1" attr="fontSize:14,color:black,textAlign:left,placeholder:请输入转入数量,text:"/>
+        </UIView>
+
+
+
+    </UIView>
+
+        <UIView layout="flexDirection:row,justifyContent:space-between,alignItems:center" attr="">
+            <UILabel name="" layout="margin:10" attr="fontSize:10,color:#333333,linesNum:0,text:可转入金额0.0GHB"/>
+            <FlexTouchView onPress="" layout="marginRight:10" attr="underlayColor:darkGray">
+                <UILabel name="" layout="" attr="fontSize:10,color:#333333,linesNum:0,text:全部转入"/>
+            </FlexTouchView>
+        </UIView>
+
+
+         <UIView layout="margin:10,marginTop:0" attr="bgColor:white,borderRadius:7">
+    
+            
+
+            <UIView layout="flexDirection:row" attr="">
+                <UILabel name="" layout="margin:15" attr="fontSize:14,color:#333333,linesNum:0,text:预计收益"/>
+                <UILabel name="" layout="" attr="fontSize:14,color:#333333,linesNum:0,text:0,00"/>
+                
+            </UIView>
+
+            <UILabel name="" layout="height:1" attr="fontSize:14,@:css/colors,linesNum:0,text:"/>
+
+            <UIView layout="" attr="">
+                <UILabel name="" layout="margin:15" attr="fontSize:14,color:#333333,linesNum:0,text:交易说明"/>
+                <FlexTextView name="" layout="" attr="fontSize:14,color:black,textAlign:left"/>
+            </UIView>
+
+
+    </UIView>
+
+
+    <FlexTouchView onPress="" layout="margin:20,height:44,justifyContent:center,alignItems:center" attr="underlayColor:darkGray,bgColor:#41559D,
+    borderRadius:7">
+        <UILabel name="" layout="" attr="fontSize:14,color:white,linesNum:0,text:确定划转"/>
+    </FlexTouchView>
+
+    <UILabel name="" layout="marginLeft:20" attr="fontSize:10,color:#333333,linesNum:0,text:GHB内盘的锁仓生息机制"/>
+    <UILabel name="" layout="margin:20" attr="fontSize:10,color:#333333,linesNum:0,text:3个月(5%00)\,6个月(5%0)\,一年收益(5%)"/>
+
+
+</UIView>

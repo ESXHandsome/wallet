@@ -1,0 +1,6 @@
+module Pods_KangYangChain {
+  umbrella header "Pods-KangYangChain-umbrella.h"
+
+  export *
+  module * { export * }
+}

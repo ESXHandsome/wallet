@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<UIView layout="" attr="@:css/colors">
+
+    <UIView layout="margin:10, flexDirection:row," attr="bgColor:white,borderRadius:7,clipsToBounds:true">
+
+
+        <UIImageView name="headImg" attr="borderRadius:30,clipsToBounds:true" layout="width:60,height:60,justifyContent:center,margin:10" />
+
+        <UIView layout="flex:1,justifyContent:center" attr="">
+
+            <UILabel name="integralLab" layout="marginLeft:10,height:30" attr="fontSize:14,color:#333333,linesNum:0,text:@积分:"/>
+            <UILabel name="orderLab" layout="marginLeft:10,height:30" attr="fontSize:14,color:#333333,linesNum:0,text:我的订单"/>
+
+        </UIView>
+
+        <UIView layout="margin:10,justifyContent:space-around" attr="">
+            <FlexTouchView layout="justifyContent:center,alignItems:center" attr="bgColor:#F76561,borderRadius:7" onPress="buyAction">
+                  <UILabel attr="font:12,color:white ,text:@购买GHB" layout="margin:5"/>
+            </FlexTouchView>
+
+             <FlexTouchView layout="justifyContent:center,alignItems:center" attr="bgColor:#F76561,borderRadius:7" onPress="changeAction">
+                  <UILabel attr="font:12,color:white, text:@兑换" layout="margin:5"/>
+            </FlexTouchView>
+
+        </UIView>
+
+
+
+    </UIView>
+
+</UIView>
+

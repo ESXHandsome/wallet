@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<styles>
+    
+    <style name="sibian">
+        
+        <attr name="flex">1</attr>
+
+    </style>
+    
+    <style name="simpleTab">
+        
+        <attr name="flex">1</attr>
+        <attr name="alignItems">center</attr>
+        <attr name="bgColor">red</attr>
+
+    </style>
+    
+    <style name="icon">
+        <attr name="width">30</attr>
+        <attr name="height">30</attr>
+    </style>
+    
+    <style name="contentImg">
+        <attr name="width">100</attr>
+        <attr name="height">100</attr>
+    </style>
+    
+    <style name="contentLabel">
+        <attr name="fontSize">14</attr>
+        <attr name="color">black</attr>
+        <attr name="text">默认内容</attr>
+        <attr name="linesNum">0</attr>
+    
+    </style>
+    
+    <style name="point">
+        
+        <attr name="width">10</attr>
+        <attr name="height">10</attr>
+        
+    </style>
+    
+    <style name="colors">
+        
+        <attr name="bgColor">#F5F5F5</attr>
+
+    </style>
+    
+    <style name="cusgreen">
+        
+        <attr name="bgColor">#29B872</attr>
+        
+    </style>
+    
+    <style name="cusred">
+        
+        <attr name="bgColor">#F66663</attr>
+        
+    </style>
+    
+    <style name="cusBlue">
+        
+        <attr name="bgColor">#1C243C</attr>
+        
+    </style>
+    
+    <style name="cusgreenc">
+        
+        <attr name="color">#29B872</attr>
+        
+    </style>
+    
+    <style name="cusredc">
+        
+        <attr name="color">#F66663</attr>
+        
+    </style>
+    
+    <style name="shadows">
+        
+        <attr name="shadowOpacity">0.3</attr>
+        <attr name="shadowColor">gray</attr>
+        <attr name="shadowRadius">3</attr>
+        <attr name="shadowOffset">0/0</attr>        
+
+    </style>
+    
+    
+</styles>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!--
+   WLNMineGHBBodyCell.xml
+   KangYangChain
+
+   Created by edz on 2018/10/17.
+   Copyright (c) 2018 furao. All rights reserved.
+-->
+<UIView layout="marginTop:0" attr="@:css/colors">
+
+    <UIView layout="height:40,flexDirection:row,justifyContent:space-around,alignItems:center" attr="bgColor:white">
+        <UILabel name="timeLab" layout="width:25%" attr="fontSize:12,color:#333333,linesNum:0,text:xxxx,
+        textAlign:center"/>
+        <UILabel name="typeLab" layout="width:25%" attr="fontSize:12,color:#333333,linesNum:0,text:13968111662,
+        textAlign:center"/>
+        <UILabel name="numLab" layout="width:25%" attr="fontSize:12,color:#333333,linesNum:0,text:1000,
+        textAlign:center"/>
+        <UILabel name="stateLab" layout="width:25%" attr="fontSize:12,color:#333333,linesNum:0,text:已完成,
+        textAlign:center"/>
+    </UIView>
+    <UILabel name="" layout="height:1" attr="fontSize:14,@:css/colors,linesNum:0,text:"/>
+   
+
+</UIView>

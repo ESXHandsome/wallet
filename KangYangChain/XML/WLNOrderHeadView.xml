@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!--
+   WLNOrderHeadView.xml
+   KangYangChain
+
+   Created by edz on 2018/10/23.
+   Copyright (c) 2018 furao. All rights reserved.
+-->
+
+<UIView layout="" attr="@:css/colors">
+
+    <UIView layout="flexDirection:row,justifyContent:space-around" attr="">
+
+        <UIView layout="" attr="">
+            <FlexTouchView onPress="floatAction:" layout="flexDirection:row,alignItems:center" attr="underlayColor:darkGray,tag:0">
+                <UILabel name="bTypeLab" layout="margin:10" attr="fontSize:14,color:#333333,linesNum:0,text:币种"/>
+                <UIImageView attr="source:Arrow_down_white" layout="width5,height:5"/>
+            </FlexTouchView>
+        </UIView>
+        <UIView layout="" attr="">
+            <FlexTouchView onPress="floatAction:" layout="flexDirection:row,alignItems:center" attr="underlayColor:darkGray,tag:1">
+                <UILabel name="" layout="margin:10" attr="fontSize:14,color:#333333,linesNum:0,text:类型"/>
+                <UIImageView attr="source:Arrow_down_white" layout="width5,height:5"/>
+           </FlexTouchView>
+        </UIView>
+ 
+    </UIView>
+
+</UIView>
+

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!--
+   WLNTradeBBHoldOrderCell.xml
+   KangYangChain
+
+   Created by edz on 2018/11/13.
+   Copyright (c) 2018 furao. All rights reserved.
+-->
+<UIView layout="" attr="@:css/colors">
+
+
+    <UIView layout="margin:5" attr="bgColor:white,borderRadius:7,@:css/shadows">
+    
+    
+        <UIView layout="" attr="">
+            <UILabel name="typeLab" layout="margin:13" attr="font:bold|15,color:green,linesNum:0,text:买涨/开多(BTC/USDT 20X)"/>
+        </UIView>
+
+        <UILabel name="" layout="height:1" attr="fontSize:14,@:css/colors,linesNum:0,text:"/>
+        
+        <UIView layout="flexDirection:row" attr="">
+            <UIView layout="" attr="">
+                <UILabel name="numLab" layout="margin:13" attr="fontSize:14,color:#333333,linesNum:0,text:委托数量:"/>
+                <UILabel name="priceLab" layout="margin:13,marginTop:0" attr="fontSize:14,color:#333333,linesNum:0,text:委托价格:"/>
+                <UILabel name="allPriceLab" layout="margin:13,marginTop:0" attr="fontSize:14,color:#333333,linesNum:0,text:委托金额:"/>
+            </UIView>
+
+            <UIView layout="" attr="">
+                <UILabel name="allNumLab" layout="margin:13" attr="fontSize:14,color:#333333,linesNum:0,text:已成交数量:"/>
+                <UILabel name="averagePriceLab" layout="margin:13,marginTop:0" attr="fontSize:14,color:#333333,linesNum:0,text:成交均价:"/>
+
+            </UIView>
+
+
+        </UIView>
+
+        <UILabel name="" layout="height:1" attr="fontSize:14,@:css/colors,linesNum:0,text:"/>
+
+        <UIView layout="flexDirection:row,justifyContent:space-between" attr="">
+
+            <UILabel name="statusLab" layout="margin:13" attr="fontSize:14,color:#333333,linesNum:0,text:进行中"/>
+            <UILabel name="timeLab" layout="margin:13" attr="fontSize:14,color:#333333,linesNum:0,text:2018-9-9"/>
+
+        </UIView>
+
+    </UIView>
+
+
+
+</UIView>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!--
+   WLNMineAgreeWalletCell.xml
+   KangYangChain
+
+   Created by edz on 2018/11/9.
+   Copyright (c) 2018 furao. All rights reserved.
+-->
+
+<UIView layout="flexDirection:row" attr="@:css/colors">
+
+    <UIView layout="marginTop:1,flexDirection:row,flex:1" attr="bgColor:white">
+
+        <UIView layout="margin:20" attr="">
+
+            <UIView layout="margin:10" attr="">
+                <UILabel name="" layout="margin:5" attr="fontSize:14,color:#333333,linesNum:0,text:已实现盈亏"/>
+                <UILabel name="has_numLab" layout="margin:5" attr="fontSize:14,color:#333333,linesNum:0,text:0.00000"/>
+
+            </UIView>
+
+            <UIView layout="margin:10" attr="">
+
+                <UILabel name="" layout="margin:5" attr="fontSize:14,color:#333333,linesNum:0,text:可用保证金"/>
+                <UILabel name="freeLab" layout="margin:5" attr="fontSize:14,color:#333333,linesNum:0,text:0.0000"/>
+
+            </UIView>
+
+        </UIView>
+
+        <UIView layout="margin:20" attr="">
+
+            <UIView layout="margin:10" attr="">
+                <UILabel name="" layout="margin:5" attr="fontSize:14,color:#333333,linesNum:0,text:未实现盈亏"/>
+                <UILabel name="will_numLab" layout="margin:5" attr="fontSize:14,color:#333333,linesNum:0,text:0.00000"/>
+
+            </UIView>
+
+            <UIView layout="margin:10" attr="">
+                <UILabel name="" layout="margin:5" attr="fontSize:14,color:#333333,linesNum:0,text:冻结保证金"/>
+                <UILabel name="frozen_numLab" layout="margin:5" attr="fontSize:14,color:#333333,linesNum:0,text:0.00000"/>
+
+            </UIView>
+
+        
+        </UIView>
+    </UIView>
+
+</UIView>

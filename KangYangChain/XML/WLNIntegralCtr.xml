@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<UIView layout="" attr="@:css/colors">
+
+
+
+    <FlexTouchView onPress="tuiguangAction" layout="margin:10,height:50,justifyContent:center" attr="bgColor:white,borderRadius:7">
+    
+        <UIImageView attr="source:"/>
+        <UILabel name="" layout="" attr="fontSize:14,color:red,linesNum:0,text:扫码推广"/>
+    </FlexTouchView>
+
+
+    <FlexTouchView onPress="fatieAction" layout="margin:10,height:50,justifyContent:center" attr="bgColor:white,borderRadius:7">
+        <UIImageView attr="source:"/>
+        <UILabel name="" layout="" attr="fontSize:14,color:#333333,linesNum:0,text:发社区贴"/>
+    </FlexTouchView>
+
+
+
+</UIView>
+
+
+
+
+
+
+

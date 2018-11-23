@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!--
+   WLNMineSmallView.xml
+   KangYangChain
+
+   Created by edz on 2018/10/24.
+   Copyright (c) 2018 furao. All rights reserved.
+-->
+
+    <UIView layout="flexDirection:row,alignItems:center" attr="bgColor:white">
+        <UIImageView attr="source:wianbao" layout="marginLeft:10,width:20,height:20" />
+        <UILabel name="titleLab" layout="margin:13" attr="font:bold|15,color:#333333,linesNum:0,text:资产明细"/>
+    </UIView>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!--
+   WLNTradeLawBOrderDetailTopCell.xml
+   KangYangChain
+
+   Created by furao on 2018/11/4.
+   Copyright (c) 2018年 furao. All rights reserved.
+-->
+
+<UIView layout="flexDirection:row,justifyContent:space-between" attr="">
+
+    <UIView layout="" attr="">
+
+        <UILabel name="typeLab" layout="margin:13" attr="font:bold|15,color:#333333,linesNum:0,text:买入USDT"/>
+
+        <UILabel name="" layout="height:1" attr="fontSize:14,@:css/colors,linesNum:0,text:"/>
+
+        <UILabel name="" layout="margin:13,marginBottom:0" attr="fontSize:14,color:#333333,linesNum:0,text:总金额"/>
+        <UILabel name="" layout="margin:13,marginBottom:0" attr="fontSize:14,color:#333333,linesNum:0,text:价格"/>
+        <UILabel name="" layout="margin:13,marginBottom:0" attr="fontSize:14,color:#333333,linesNum:0,text:数量"/>
+
+        <UILabel name="" layout="margin:13,marginBottom:0" attr="fontSize:14,color:#333333,linesNum:0,text:下单时间"/>
+        <UILabel name="" layout="margin:13,marginBottom:0" attr="fontSize:14,color:#333333,linesNum:0,text:订单号"/>
+        <UILabel name="" layout="margin:13" attr="fontSize:14,color:#333333,linesNum:0,text:卖家"/>
+
+
+    </UIView>
+
+    <UIView layout="flex:1" attr="">
+
+        <UILabel name="statusLab" layout="margin:13" attr="font:bold|15,color:orange,linesNum:0,text:--,textAlign:right"/>
+
+        <UILabel name="" layout="height:1" attr="fontSize:14,@:css/colors,linesNum:0,text:"/>
+
+        <UILabel name="totalLab" layout="margin:13,marginBottom:0" attr="fontSize:14,color:#333333,linesNum:0,text:--,textAlign:right"/>
+        <UILabel name="priceLab" layout="margin:13,marginBottom:0" attr="fontSize:14,color:#333333,linesNum:0,text:--,textAlign:right"/>
+        <UILabel name="numLab" layout="margin:13,marginBottom:0" attr="fontSize:14,color:#333333,linesNum:0,text:--,textAlign:right"/>
+
+        <UILabel name="createTimeLab" layout="margin:13,marginBottom:0" attr="fontSize:14,color:#333333,linesNum:0,text:--,textAlign:right"/>
+        <UILabel name="orderIDLab" layout="margin:13,marginBottom:0" attr="fontSize:14,color:#333333,linesNum:0,text:--,textAlign:right"/>
+        <UILabel name="toUserLab" layout="margin:13" attr="fontSize:14,color:#333333,linesNum:0,text:--,textAlign:right"/>
+
+
+    
+    </UIView>
+
+
+
+</UIView>
+
+

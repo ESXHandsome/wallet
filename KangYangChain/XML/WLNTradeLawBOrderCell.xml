@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!--
+   WLNTradeLawBOrderCell.xml
+   KangYangChain
+
+   Created by furao on 2018/11/4.
+   Copyright (c) 2018年 furao. All rights reserved.
+-->
+
+<UIView layout="" attr="@:css/colors">
+
+    <UIView layout="marginTop:10,marginBottom:1,flexDirection:row,justifyContent:space-between" attr="bgColor:white,@:css/shadows">
+
+        <UIView layout="flexDirection:row,justifyContent:space-between,flex:1" attr="">
+
+            <UILabel name="typeLab" layout="margin:13" attr="font:bold|14,color:#333333,linesNum:0,text:买入USDT"/>   
+            <UIView layout="flexDirection:row" attr="">
+
+                <UILabel name="timeLab" layout="" attr="fontSize:14,color:red,linesNum:0,text:"/>
+                <UILabel name="statusLab" layout="margin:13" attr="font:bold|14,color:#333333,linesNum:0,text:去付款"/>
+            </UIView>
+1
+        </UIView>
+
+        <UIView layout="flexDirection:row" attr="">
+            <UIImageView attr="source:"/>
+            <UIImageView attr="source:"/>
+            <UIImageView attr="source:"/>
+        </UIView>
+
+
+
+    </UIView>
+
+    <UIView layout="marginTop:0,flexDirection:row" attr="bgColor:white">
+
+        <UIView layout="width:33%" attr="">
+            <UILabel name="priceLab" layout="margin:13" attr="fontSize:14,color:#333333,linesNum:1,text:6.88"/>
+            <UILabel name="" layout="margin:13,marginTop:0" attr="fontSize:14,color:#333333,linesNum:0,text:价格(CNY)"/>
+        </UIView>
+
+        <UILabel name="" layout="width:2,marginTop:13,marginBottom:13" attr="fontSize:14,@:css/colors,linesNum:0,text:"/>
+
+        <UIView layout="width:33%" attr="">
+            <UILabel name="numLab" layout="margin:13" attr="fontSize:14,color:#333333,linesNum:0,text:8000-8400"/>
+            <UILabel name="" layout="margin:13,marginTop:0" attr="fontSize:14,color:#333333,linesNum:0,text:数量"/>
+        </UIView>
+
+        <UILabel name="" layout="width:2,marginTop:13,marginBottom:13" attr="fontSize:14,@:css/colors,linesNum:0,text:"/>
+
+        <UIView layout="width:33%" attr="">
+            
+            <UILabel name="totalLab" layout="margin:13" attr="fontSize:14,color:#333333,linesNum:0,text:1432.22"/>
+            <UILabel name="" layout="margin:13,marginTop:0" attr="fontSize:14,color:#333333,linesNum:0,text:金额"/>
+        
+        </UIView>
+
+    </UIView>
+
+</UIView>
+

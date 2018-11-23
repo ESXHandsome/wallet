@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!--
+   WLNMineFormBottomCell.xml
+   KangYangChain
+
+   Created by edz on 2018/10/16.
+   Copyright (c) 2018 furao. All rights reserved.
+-->
+<UIView layout="marginTop:0" attr="@:css/colors">
+
+
+    <UIView layout="height:40,flexDirection:row,alignItems:center" attr="bgColor:white">
+
+        <UILabel name="nameLab" layout="width:20%" attr="fontSize:11,color:#333333,linesNum:0,text:name,
+        textAlign:center"/>
+        <UILabel name="phoneLab" layout="width:20%" attr="fontSize:11,color:#333333,linesNum:0,text:phone,
+        textAlign:center"/>
+        <UILabel name="numLab" layout="width:20%" attr="fontSize:11,color:#333333,linesNum:0,text:1000,textAlign:center"/>
+        <UILabel name="statusLab" layout="width:20%" attr="fontSize:11,color:#333333,linesNum:0,text:已完成,textAlign:center"/>
+
+        <FlexTouchView name="payBtn" onPress="payGHB" layout="width:20%,height:30,flex:1,justifyContent:center,alignItems:center" attr="underlayColor:darkGray,bgColor:#1E263C,borderRadius:7">
+
+            <UILabel name="" layout="" attr="fontSize:14,color:white,linesNum:0,text:支付"/>
+            
+        </FlexTouchView>
+    </UIView>
+
+   
+
+</UIView>
+
+
+

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<UIView layout="" attr="borderWidth:2,borderColor:#F5F5F5">
+
+    <UIView layout="alignItems:center,margin:10,marginBottom:0" attr="">
+        <UIImageView name="img" attr="source:Snip20181003_35,bgColor:red" layout="width:100,height:100"/>
+    </UIView>
+    <UILabel name="lab" layout="margin:10" attr="fontSize:14,color:#333333,linesNum:0,text:HUXI呼吸 bad 肢体抱枕一只"/>
+
+    <UIView layout="flexDirection:row,margin:10,marginTop:0,justifyContent:space-between" attr="">
+    
+        <UILabel name="scoreLab" layout="" attr="fontSize:12,color:#333333,linesNum:0,text:@积分:"/>
+
+        <FlexTouchView  attr="bgColor:#F76561,borderRadius:7" layout=",alignItems:center,justifyContent:center" 
+        onPress="exAction">
+            <UILabel name="" layout="margin:5" attr="fontSize:12,color:#333333,linesNum:0,text:@兑换,color:white"/>
+        </FlexTouchView>
+
+    </UIView>
+
+
+</UIView>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!--
+   WLNTradeAgreeCloseCell.xml
+   KangYangChain
+
+   Created by edz on 2018/11/15.
+   Copyright (c) 2018 furao. All rights reserved.
+-->
+
+<UIView layout="" attr="@:css/colors">
+
+
+    <UIView layout="margin:10,marginBottom:0" attr="bgColor:white,borderRadius:7,@:css/shadows">
+    
+    
+        <UIView layout="flexDirection:row,justifyContent:space-between,alignItems:center" attr="">
+            <UILabel name="typeLab" layout="margin:13" attr="font:bold|15,color:green,linesNum:0,text:--"/>
+            <UILabel name="closeTypeLab" layout="margin:13" attr="fontSize:14,color:orange,linesNum:0,text:--"/>
+
+        </UIView>
+
+        <UILabel name="" layout="height:1" attr="fontSize:14,@:css/colors,linesNum:0,text:"/>
+        
+        <UIView layout="flexDirection:row" attr="">
+
+            <UIView layout="width:33%" attr="">
+                <UILabel name="chicangPriceLab" layout="margin:13,marginBottom:0" attr="fontSize:14,color:#333333,linesNum:0,text:持仓价:"/>
+                <UILabel name="chicangliangLab" layout="margin:13,marginBottom:0" attr="fontSize:14,color:#333333,linesNum:0,text:持仓量:"/>
+                <UILabel name="zhiyingLab" layout="margin:13" attr="fontSize:14,color:#333333,linesNum:0,text:止盈:"/>
+            </UIView>
+
+            <UIView layout="width:33%" attr="">
+
+                <UILabel name="dongjieLab" layout="margin:13,marginBottom:0" attr="fontSize:14,color:#333333,linesNum:0,text:冻结:"/>
+                <UILabel name="pingcangjiaLab" layout="margin:13,marginBottom:0" attr="fontSize:14,color:#333333,linesNum:0,text:平仓价:"/>
+                <UILabel name="zhisunLab" layout="margin:13" attr="fontSize:14,color:#333333,linesNum:0,text:止损:"/>
+
+
+            </UIView>
+
+            <UIView layout="width:33%" attr="">
+
+                <UILabel name="yingkuiLab" layout="margin:13" attr="fontSize:14,color:#333333,linesNum:0,text:盈亏:"/>
+
+            </UIView>
+
+
+        </UIView>
+
+        <UILabel name="" layout="height:1" attr="fontSize:14,@:css/colors,linesNum:0,text:"/>
+
+        <UIView layout="alignItems:flex-end,flex:1" attr="">
+
+            <UILabel name="timeLab" layout="margin:13" attr="fontSize:14,color:#333333,linesNum:0,text:--"/>
+
+        </UIView>
+
+    </UIView>
+
+
+
+</UIView>
+

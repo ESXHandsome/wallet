@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!--
+   WLNMineLawWalletHeadCell.xml
+   KangYangChain
+
+   Created by edz on 2018/10/23.
+   Copyright (c) 2018 furao. All rights reserved.
+-->
+<UIImageView name="img" attr="source:123,bgColor:#1D243D,userInteractionEnabled:true" layout="">
+
+    <UIView layout="" attr="">
+
+        <UIView layout="flexDirection:row,margin:10" attr="">
+            <UILabel name="" layout="" attr="fontSize:16,color:white,linesNum:0,text:@账户估值"/>
+
+            <FlexTouchView onPress="changeBiAction" layout="marginLeft:20,width:80,height:30,justifyContent:center,alignItems:center,flexDirection:row" attr="underlayColor:darkGray,bgColor:white,
+            borderRadius:15">
+                <UILabel name="bizhongChoseLab" layout="" attr="fontSize:16,color:black,linesNum:0,text:BTC"/>
+                <UIImageView attr="source:Arrow_down_white" layout="marginLeft:5"/>
+
+            </FlexTouchView>
+        </UIView>
+
+        <UIView layout="margin:10,flexDirection:row" attr="">
+            <UILabel name="balanceLab" layout="" attr="fontSize:30,color:white,linesNum:0,text:0"/>
+            <UIView layout="justifyContent:flex-end,marginLeft:5,marginBottom:5" attr="">
+                <UILabel name="bizhongTypeLab" layout="" attr="fontSize:16,color:white,linesNum:0,text:BTC"/>
+            </UIView>
+        </UIView>
+
+        <UILabel name="rmbLab" layout="margin:10,marginTop:0" attr="fontSize:16,color:white,linesNum:0,text:≈ 0 rmb"/>
+    
+    </UIView>
+
+    <UIView layout="margin:15,height:80,flexDirection:row,justifyContent:space-around,alignItems:center" attr="bgColor:white,borderRadius:10">
+       
+        <FlexTouchView onPress="clickAction:" layout="alignItems:center,flex:1" attr="underlayColor:darkGray,tag:0">
+
+            <UIImageView attr="source:Capital_transfer" layout="width:20,height:20,marginBottom:10"/>  
+            <UILabel name="" layout="" attr="fontSize:14,color:black,linesNum:0,text:@资金转化"/>
+            
+        </FlexTouchView>
+
+        <FlexTouchView onPress="clickAction:" layout="alignItems:center,flex:1" attr="underlayColor:darkGray,tag:1">
+
+            <UIImageView attr="source:bill" layout="width:20,height:20,marginBottom:10"/>  
+            <UILabel name="" layout="" attr="fontSize:14,color:black,linesNum:0,text:@账单"/>
+
+        </FlexTouchView>
+
+    </UIView>
+
+
+</UIImageView>

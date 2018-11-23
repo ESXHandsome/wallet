@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!--
+   WLNTradeLawBOrderDetailFootView.xml
+   KangYangChain
+
+   Created by furao on 2018/11/5.
+   Copyright (c) 2018年 furao. All rights reserved.
+-->
+
+<UIView layout="" attr="@:css/colors">
+
+    <UIView name="topView" layout="" attr="hidden:true">
+
+        <UILabel name="" layout="margin:13" attr="fontSize:13,color:#333333,linesNum:0,text:请在对方收款后\,点击 确认收款 \,1小时未确认收款卖家有权申诉\,14小时未确认收款\,将自动放币给买家"/>
+
+        <UILabel name="timeLab" layout="marginLeft:13" attr="fontSize:13,color:red,linesNum:0,text:00'00' 后超时取消"/>
+
+        <FlexTouchView onPress="" layout="justifyContent:center,alignItems:center,margin:20" attr="underlayColor:darkGray,bgColor:gray,
+            borderRadius:7">
+            <UILabel name="" layout="margin:13" attr="fontSize:14,color:white,linesNum:0,text:确认收款"/>
+        </FlexTouchView>
+
+    </UIView>
+
+    <UIView name="bottomView" layout="flex:1,marginTop:13" attr="hidden:true">
+
+        <UIView layout="flexDirection:row" attr="bgColor:white">
+
+            <FlexTouchView onPress="callToUser" layout="flex:1" attr="underlayColor:darkGray">
+                <UILabel name="" layout="margin:13" attr="fontSize:14,color:#333333,linesNum:0,text:联系对方,
+                textAlign:center"/>
+            </FlexTouchView>
+
+            <UILabel name="" layout="width:1" attr="fontSize:14,@:css/colors,linesNum:0,text:"/>
+            <FlexTouchView onPress="callKefu" layout="flex:1" attr="underlayColor:darkGray">
+                <UILabel name="" layout="margin:13" attr="fontSize:14,color:#333333,linesNum:0,text:联系客服,
+                textAlign:center"/>
+            </FlexTouchView>
+
+        </UIView>
+        <UILabel name="" layout="margin:13" attr="fontSize:13,color:#333333,linesNum:0,text:请在收到对方付款后\,点击 确认收款 \,1小时未确认收款卖家有权申诉\,14小时未确认收款\,将自动放币给买家"/>
+        
+        <FlexTouchView onPress="paySureAction" layout="justifyContent:center,alignItems:center,margin:20" attr="underlayColor:darkGray,bgColor:#1D243D,borderRadius:7">
+            <UILabel name="timelabB" layout="margin:13" attr="fontSize:14,color:white,linesNum:0,text:确认收款(剩余 00分00秒)"/>
+        </FlexTouchView>
+
+    </UIView>
+
+</UIView>

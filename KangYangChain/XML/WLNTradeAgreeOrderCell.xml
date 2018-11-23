@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!--
+   WLNTradeAgreeOrderCell.xml
+   KangYangChain
+
+   Created by edz on 2018/11/9.
+   Copyright (c) 2018 furao. All rights reserved.
+-->
+<UIView layout="" attr="@:css/colors">
+
+    <UIView layout="margin:10,marginBottom:0" attr="bgColor:white,@:css/shadows,borderRadius:7">
+
+        <UIView layout="flexDirection:row,justifyContent:space-between" attr="">
+
+            <UILabel name="typeLab" layout="margin:13" attr="font:bold|14,color:#333333,linesNum:0,text:--"/>
+            <UILabel name="timeLab" layout="margin:13" attr="fontSize:14,color:#333333,linesNum:0,text:--"/>
+
+        </UIView>
+
+        <UILabel name="" layout="height:1" attr="fontSize:14,@:css/colors,linesNum:0,text:"/>
+
+        <UIView layout="flexDirection:row,justifyContent:space-between" attr="">
+
+            <UILabel name="numLab" layout="margin:13" attr="fontSize:14,color:#333333,linesNum:0,text:数量:--"/>
+            <UILabel name="serviceLab" layout="" attr="fontSize:14,color:#333333,linesNum:0,text:"/>
+            <UILabel name="blanceLab" layout="" attr="fontSize:14,color:#333333,linesNum:0,text:"/>
+
+        </UIView>
+
+
+
+    </UIView>
+
+</UIView>
+
+
+
+

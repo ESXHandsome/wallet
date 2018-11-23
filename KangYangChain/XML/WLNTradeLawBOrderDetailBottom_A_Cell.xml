@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!--
+   WLNTradeLawBOrderDetailBottom_A_Cell.xml
+   KangYangChain
+
+   Created by edz on 2018/11/14.
+   Copyright (c) 2018 furao. All rights reserved.
+-->
+<UIView layout="" attr="">
+
+    <UIView layout="flexDirection:row" attr="">
+
+    <UIView layout="flex:1" attr="">
+
+        <UILabel name="" layout="margin:13" attr="fontSize:14,color:#333333,linesNum:0,text:付款信息"/>
+
+        <UILabel name="" layout="margin:13,marginTop:0" attr="fontSize:14,color:#333333,linesNum:0,text:收款人"/>
+        <UILabel name="" layout="margin:13,marginTop:0" attr="fontSize:14,color:#333333,linesNum:0,text:支付方方式"/>
+        <UILabel name="" layout="margin:13,marginTop:0" attr="fontSize:14,color:#333333,linesNum:0,text:支付金额"/>
+        <UILabel name="" layout="margin:13,marginTop:0" attr="fontSize:14,color:#333333,linesNum:0,text:确认付款时间"/>
+
+    </UIView>
+
+    <UIView layout="" attr="">
+
+
+        <UILabel name="" layout="margin:13" attr="fontSize:14,color:#333333,linesNum:0,text:--,textAlign:right,
+        alpha:0"/>
+        <UILabel name="toUserLab" layout="margin:13,marginTop:0" attr="fontSize:14,color:#333333,linesNum:0,text:--,textAlign:right"/>
+        <UILabel name="payTypeLab" layout="margin:13,marginTop:0" attr="fontSize:14,color:#333333,linesNum:0,text:--,textAlign:right"/>
+        <UILabel name="payMoneyLab" layout="margin:13,marginTop:0" attr="fontSize:14,color:#333333,linesNum:0,text:--,textAlign:right"/>
+        <UILabel name="payTimeLab" layout="margin:13,marginTop:0" attr="fontSize:14,color:#333333,linesNum:0,text:--,textAlign:right"/>
+
+    </UIView>
+
+
+    </UIView>
+
+    
+    <UIView layout="botoomView,flex:1" attr="@:css/colors">
+
+        <FlexTouchView onPress="callUserAction" layout="marginTop:13" attr="underlayColor:darkGray,bgColor:white,@:css/shadows">
+            <UIImageView attr="source:"/>
+            <UILabel name="" layout="margin:13" attr="fontSize:14,color:#333333,linesNum:0,text:联系对方,
+            textAlign:center"/>
+        </FlexTouchView>
+
+        <UILabel name="timeLab" layout="margin:13" attr="fontSize:13,color:red,linesNum:0,text:--后自动放币"/>
+
+    </UIView>
+
+
+
+</UIView>
+
+

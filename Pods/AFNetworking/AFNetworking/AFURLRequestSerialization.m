@@ -510,6 +510,7 @@ forHTTPHeaderField:(NSString *)field
     if ([self.HTTPMethodsEncodingParametersInURI containsObject:[[request HTTPMethod] uppercaseString]]) {
         if (query && query.length > 0) {
             mutableRequest.URL = [NSURL URLWithString:[[mutableRequest.URL absoluteString] stringByAppendingFormat:mutableRequest.URL.query ? @"&%@" : @"?%@", query]];
+            NSLog(@"%@",mutableRequest.URL);
         }
     } else {
         // #2864: an empty string is a valid x-www-form-urlencoded payload

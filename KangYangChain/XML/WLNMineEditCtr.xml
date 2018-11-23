@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!--
+   WLNMineEditCtr.xml
+   KangYangChain
+
+   Created by furao on 2018/10/13.
+   Copyright (c) 2018年 furao. All rights reserved.
+-->
+
+<UIView layout="flex:1,marginTop:30" attr="@:css/colors">
+
+    <UIView layout="margin:10,height:50,alignItems:center,flexDirection:row" attr="bgColor:white,borderRadius:7">
+
+        <UILabel name="" layout="marginLeft:10" attr="fontSize:17,color:#333333,linesNum:0,text:用户名"/>
+        <UITextField name="nameTxt" layout="marginLeft:10,flex:1" attr="fontSize:14,color:black,textAlign:left,placeholder:点击输入用户名,text:"/>
+
+    </UIView>
+
+    <UILabel name="" layout="marginLeft:10" attr="fontSize:11,color:#333333,linesNum:0,text:以英文字母或汉字开头 限4-16个字符 资格汉字为2个字符"/>
+
+</UIView>

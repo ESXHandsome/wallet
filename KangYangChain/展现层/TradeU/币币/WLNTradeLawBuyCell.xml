@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!--
+   WLNTradeLawBuyCell.xml
+   KangYangChain
+
+   Created by edz on 2018/10/25.
+   Copyright (c) 2018 furao. All rights reserved.
+-->
+
+<UIView layout="" attr="@:css/colors">
+
+    <UIView layout="marginTop:10,flexDirection:row" attr="bgColor:white">
+
+        <UIView layout="" attr="">
+            <UILabel name="" layout="margin:10" attr="fontSize:14,color:#333333,linesNum:0,text:交易价格"/>
+            <UILabel name="" layout="" attr="fontSize:14,color:#333333,linesNum:0,text:数量(USDT)"/>
+            <UILabel name="" layout="" attr="fontSize:14,color:gray,linesNum:0,text:金额(CNY)"/>
+
+        </UIView>
+
+        <UIView layout="" attr="">
+            <UILabel name="" layout="" attr="fontSize:14,color:#333333,linesNum:0,text:6.88 CNY"/>
+            <UITextField name="" layout="" attr="fontSize:14,color:black,textAlign:left,placeholder:请输入数量,text:"/>
+            <UILabel name="" layout="" attr="fontSize:14,color:gray,linesNum:0,text:6,88"/>
+
+        </UIView>
+
+
+
+    </UIView>
+</UIView>

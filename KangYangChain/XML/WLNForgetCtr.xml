@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<UIImageView layout="flex:1" attr="source:background,userInteractionEnabled:true,bgColor:black">
+
+        <UIView layout="alignItems:center,margin:80,marginBottom:40" attr="">
+            <UIImageView attr="source:btcicon" layout="width:100,height:100"/>
+        </UIView>
+        
+        <UIView layout="flexDirection:row,marginLeft:50,marginRight:50" attr="bgColor:#7A7A7A,borderRadius:7">
+
+            <UILabel name="" layout="marginLeft:15" attr="fontSize:15,color:white,linesNum:0,text:+86"/>
+
+            <UITextField name="phoneTxt" layout="marginLeft:20,flex:1,height:44" attr="fontSize:15,color:white,textAlign:left,placeholder:@请输入手机号,text:,
+            keyboardType:numberPad"/>
+
+        </UIView>
+
+       <UIView layout="alignItems:center,flexDirection:row,marginTop:10,marginLeft:50,marginRight:50" attr="bgColor:#7A7A7A,borderRadius:7">
+            
+            <UIImageView attr="source:yanzhengma" layout="marginLeft:15"/>
+            <UITextField name="codeTxt" layout="marginLeft:20,flex:1,height:44" attr="fontSize:15,color:white,textAlign:left,placeholder:@请输入验证码,text:,
+            keyboardType:numberPad"/>
+
+            <FlexTouchView onPress="codeAction:" layout="" attr="underlayColor:darkGray">
+                <UILabel name="codeLab" layout="margin:10" attr="fontSize:12,color:white,linesNum:0,text:@发送验证码"/>
+            </FlexTouchView>
+  
+        </UIView>
+        
+        <UIView layout="alignItems:center,flexDirection:row,marginTop:10,marginLeft:50,marginRight:50" attr="bgColor:#7A7A7A,borderRadius:7">
+            <UIImageView attr="source:Login_lock" layout="marginLeft:15"/>
+            <UITextField name="pwdTxt" layout="marginLeft:20,flex:1,height:44" attr="secureTextEntry:true,fontSize:15,color:white,textAlign:left,placeholder:@请输入新密码,text:"/>
+            <FlexTouchView onPress="hideAction:" layout="height:44,width:40,justifyContent:center,alignItems:center" attr="underlayColor:darkGray">
+
+                <UIImageView attr="source:display" layout="height:10,width:15"/>
+
+            </FlexTouchView>
+        </UIView>
+
+         <UIView layout="alignItems:center,flexDirection:row,marginTop:10,marginLeft:50,marginRight:50" attr="bgColor:#7A7A7A,borderRadius:7">
+         
+            <UIImageView attr="source:surePwd" layout="marginLeft:15"/>
+            <UITextField name="surePwdTxt" layout="marginLeft:20,flex:1,height:44" attr="secureTextEntry:true,fontSize:15,color:white,textAlign:left,placeholder:@确认新密码,text:"/>
+            <FlexTouchView onPress="sureHideAction:" layout="height:44,width:40,justifyContent:center,alignItems:center" attr="underlayColor:darkGray">
+
+                <UIImageView attr="source:display" layout="height:10,width:15"/>
+            </FlexTouchView>
+        </UIView>
+
+        <UIView layout="flexDirection:row,justifyContent:space-between,marginTop:10,marginLeft:50,marginRight:50" attr="">
+
+            <FlexTouchView onPress="registerAction">
+                <UILabel name="" layout="" attr="fontSize:15,color:white,linesNum:0,text:@使用手机号注册"/>
+            </FlexTouchView>
+        
+            <UIView layout="flexDirection:row" attr="">
+            
+                <FlexTouchView>
+                    <UILabel name="" layout="" attr="fontSize:15,color:white,linesNum:0,text:@已有账号?"/>
+                </FlexTouchView>
+            
+                <FlexTouchView onPress="logAction" attr="underlayColor:darkGray" >
+                    <UILabel name="" layout="" attr="fontSize:15,color:orange,linesNum:0,text:@去登录"/>
+                </FlexTouchView>
+            
+            </UIView>
+        
+        </UIView>
+    
+        <FlexTouchView name="" layout="margin:50,height:44,justifyContent:center" attr="bgColor:white,borderRadius:7,underlayColor:darkGray"
+            onPress="doneAction">
+            <UILabel name="" layout="" attr="fontSize:15,color:#333333,linesNum:0,text:@确认找回,textAlign:center"/>
+        </FlexTouchView>
+ 
+
+</UIImageView>

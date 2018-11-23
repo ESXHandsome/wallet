@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<UIView layout="" attr="@:css/colors">
+
+
+    <UIView name="bottomView" layout="flexDirection:row,justifyContent:space-around,height:40,marginTop:1" attr="bgColor:white">
+        <UILabel name="" layout="" attr="fontSize:14,color:#333333,linesNum:0,text:币种"/>
+        <UILabel name="" layout="" attr="fontSize:14,color:#333333,linesNum:0,text:可用"/>
+        <UILabel name="" layout="" attr="fontSize:14,color:#333333,linesNum:0,text:冻结"/>
+    </UIView>
+
+    <UIView name="bottom2View" layout="flexDirection:row,justifyContent:space-around,height:40,marginTop:1" attr="
+    hidden:true,bgColor:white">
+        <UILabel name="" layout="" attr="fontSize:14,color:#333333,linesNum:0,text:时间"/>
+        <UILabel name="" layout="" attr="fontSize:14,color:#333333,linesNum:0,text:类型"/>
+        <UILabel name="" layout="" attr="fontSize:14,color:#333333,linesNum:0,text:数量"/>
+        <UILabel name="" layout="" attr="fontSize:14,color:#333333,linesNum:0,text:状态"/>
+    </UIView>
+
+
+
+
+    <UILabel name="" layout="flex:1,height:1" attr="@:css/colors,fontSize:14,linesNum:0,text:"/>
+
+
+</UIView>

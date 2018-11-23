@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!--
+   WLNRSendMoneyCell.xml
+   KangYangChain
+
+   Created by edz on 2018/13/23.
+   Copyright (c) 2018 furao. All rights reserved.
+-->
+<UIView layout="flex:1" attr="@:css/colors">
+    
+    <UIView layout="margin:10" attr="bgColor:white,borderRadius:7,@:css/shadows">
+    
+    <FlexTouchView onPress="chooseAction:" layout="flexDirection:row,justifyContent:space-between,alignItems:center" attr="underlayColor:darkGray,
+        ">
+        <UILabel name="" layout="margin:13" attr="fontSize:14,color:#333333,linesNum:0,text:币种选择"/>
+        <UILabel name="typeLab" layout="" attr="fontSize:14,color:#333333,linesNum:0,text:请选择"/>
+        <UIImageView attr="source:Arrow_down_white" layout="margin:14"/>
+    </FlexTouchView>
+
+    <UILabel name="" layout="height:1" attr="fontSize:14,@:css/colors,linesNum:0,text:"/>
+
+    <UIView layout="" attr="bgColor:">
+        
+        <UIView layout="flexDirection:row" attr="">
+            <UILabel name="" layout="margin:13" attr="fontSize:14,color:#333333,linesNum:0,text:提币地址"/>
+            <FlexTouchView onPress="addressChooseAction" layout="justifyContent:center,alignItems:flex-end,flex:1" attr="underlayColor:darkGray">
+                <UILabel name="" layout="margin:13" attr="fontSize:13,color:#9AB3D8,linesNum:0,text:选择地址"/>
+            </FlexTouchView>
+        </UIView>
+
+        <UIView layout="flexDirection:row" attr="">
+        
+            <UITextField name="addressTxt" layout="height:40,marginLeft:13,flex:1" attr="fontSize:14,color:black,textAlign:left,placeholder:,text:,placeholder:输入或长按粘贴地址"/>
+            
+            <FlexTouchView onPress="saoAction" layout="width:40,height:40,marginRight:0,justifyContent:center,alignItems:center" attr="underlayColor:darkGray">
+                <UIImageView attr="source:Topromote" layout="width:25,height:20"/>
+            </FlexTouchView>
+        </UIView>
+
+    </UIView>
+    
+    <UILabel name="" layout="height:1" attr="fontSize:14,@:css/colors,linesNum:0,text:"/>
+
+    
+    <UIView layout="flexDirection:row" attr="">
+        
+
+        <UILabel name="" layout=",margin:13" attr="fontSize:14,color:#333333,linesNum:0,text:提币数量"/>
+        <UITextField name="numTxt" layout="height:40,marginLeft:13,flex:1" attr="fontSize:14,color:black,textAlign:left,placeholder:,text:,placeholder:输入数量,keyboardType:numberPad"/>
+     
+    </UIView>
+
+    <UIView layout="flex:1,flexDirection:row,justifyContent:space-between" attr="@:css/colors">
+        <UILabel name="canUseLab" layout="margin:5" attr="fontSize:13,color:#333333,linesNum:0,text:可提币数量0.00BTC"/>
+        <FlexTouchView onPress="allAction" layout="justifyContent:center,alignItems:center,marginRight:13" attr="underlayColor:darkGray">
+            <UILabel name="" layout="" attr="fontSize:13,color:#9AB3D8,linesNum:0,text:全部提现,textAlign:center"/>
+        </FlexTouchView>
+
+    </UIView>
+
+    <UIView layout="flexDirection:row" attr="">
+        <UILabel name="" layout="margin:13" attr="fontSize:14,color:#333333,linesNum:0,text:网络手续费"/>
+        <UILabel name="serviceLab" layout="" attr="fontSize:14,color:#333333,linesNum:0,text:--"/>
+    </UIView>
+    <UILabel name="" layout="height:1" attr="fontSize:14,@:css/colors,linesNum:0,text:"/>
+
+    <UIView layout="flexDirection:row" attr="">
+        <UILabel name="" layout="margin:13" attr="fontSize:14,color:#333333,linesNum:0,text:短信验证码"/>
+        <UITextField name="codeTxt" layout="flex:1" attr="fontSize:14,color:black,textAlign:left,placeholder:请输入验证码,text:"/>
+        <FlexTouchView onPress="getCodeAction" layout="marginRight:13,justifyContent:center" attr="underlayColor:darkGray">
+            <UILabel name="" layout="" attr="fontSize:14,color:#333333,linesNum:0,text:获取验证码"/>
+        </FlexTouchView>
+    </UIView>
+    <UILabel name="" layout="height:1" attr="fontSize:14,@:css/colors,linesNum:0,text:"/>
+
+    <UIView layout="flexDirection:row" attr="">
+        <UILabel name="" layout="margin:13" attr="fontSize:14,color:#333333,linesNum:0,text:资金的密码"/>
+        <UITextField name="pwdTxt" layout="flex:1" attr="fontSize:14,color:black,textAlign:left,placeholder:请输入资金密码,text:"/>
+
+    </UIView>
+    <UILabel name="" layout="height:1" attr="fontSize:14,@:css/colors,linesNum:0,text:"/>
+
+    </UIView>
+
+
+    <FlexTouchView onPress="sendAction" layout="margin:13,height:40,justifyContent:center,alignItems:center" attr="underlayColor:darkGray,@:css/cusBlue,borderRadius:7">
+        <UILabel name="" layout="" attr="fontSize:14,color:white,linesNum:0,text:发送"/>
+    </FlexTouchView>
+        
+    
+
+
+</UIView>

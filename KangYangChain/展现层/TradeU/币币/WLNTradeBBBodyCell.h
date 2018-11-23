@@ -1,0 +1,27 @@
+//
+//  WLNTradeBBBodyCell.h
+//  KangYangChain
+//
+//  Created by edz on 2018/11/9.
+//  Copyright © 2018 furao. All rights reserved.
+//
+
+#import <UIKit/UIKit.h>
+
+NS_ASSUME_NONNULL_BEGIN
+
+@interface WLNTradeBBBodyCell : FlexBaseTableCell
+@property (nonatomic, strong) UILabel *typeLab;
+@property (nonatomic, strong) UILabel *timeLab;
+
+@property (nonatomic, strong) UILabel *weituoLab;
+@property (nonatomic, strong) UILabel *chengjiaoLab;
+@property (nonatomic, strong) UILabel *priceLab;
+
+
+@property (nonatomic, strong) NSMutableDictionary *dic;
+
+
+@end
+
+NS_ASSUME_NONNULL_END

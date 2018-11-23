@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<UIView layout="flex:1"  >
+    <UITableView name="tab" layout="flex:1" attr="@:css/colors"/>
+</UIView>

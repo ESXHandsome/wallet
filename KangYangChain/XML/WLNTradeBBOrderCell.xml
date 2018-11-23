@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!--
+   WLNTradeBBOrderCell.xml
+   KangYangChain
+
+   Created by edz on 2018/10/25.
+   Copyright (c) 2018 furao. All rights reserved.
+-->
+
+<UIView layout="" attr="@:css/colors">
+
+    <UIView layout="margin:10,marginBottom:5" attr="bgColor:white,borderRadius:7">
+
+        <UILabel name="" layout="margin:10" attr="fontSize:14,color:#333333,linesNum:0,text:2018-10-16"/>
+        <UILabel name="" layout="margin:10" attr="fontSize:14,color:#333333,linesNum:0,text:交易类型:限价"/>
+        <UILabel name="" layout="margin:10" attr="fontSize:14,color:#333333,linesNum:0,text:币种:BTC:USDT"/>
+        <UILabel name="" layout="margin:10" attr="fontSize:14,color:#333333,linesNum:0,text:现价:6663.65"/>
+        <UILabel name="" layout="margin:10" attr="fontSize:14,color:#333333,linesNum:0,text:盈亏:-767"/>
+
+    </UIView>
+
+</UIView>

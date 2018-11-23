@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!--
+   WLNTradeLawPayCell.xml
+   KangYangChain
+
+   Created by edz on 2018/13/25.
+   Copyright (c) 2018 furao. All rights reserved.
+-->
+
+<UIView layout="" attr="@:css/colors">
+
+    <UIView layout="marginTop:13,flexDirection:row" attr="bgColor:white">
+
+        <UIView layout="" attr="">
+            <UILabel name="" layout="margin:13" attr="fontSize:14,color:#333333,linesNum:0,text:交易价格"/>
+
+            <UILabel name="" layout="height:1" attr="fontSize:14,@:css/colors,linesNum:0,text:"/>
+
+            <UILabel name="" layout="margin:13" attr="fontSize:14,color:#333333,linesNum:0,text:数量(USDT)"/>
+
+            <UILabel name="" layout="height:1" attr="fontSize:14,@:css/colors,linesNum:0,text:"/>
+
+            <UILabel name="" layout="margin:13" attr="fontSize:14,color:#333333,linesNum:0,text:金额(CNY)"/>
+
+        </UIView>
+
+        <UIView layout="flex:1" attr="">
+
+            <UILabel name="priceLab" layout="margin:13" attr="fontSize:14,color:gray,linesNum:0,text:0.00 CNY"/>
+
+            <UILabel name="" layout="height:1" attr="fontSize:14,@:css/colors,linesNum:0,text:"/>
+
+            <UILabel name="numLab" layout="margin:13" attr="fontSize:14,color:gray,linesNum:0,text:0"/>
+
+            <UILabel name="" layout="height:1" attr="fontSize:14,@:css/colors,linesNum:0,text:"/>
+
+            <UILabel name="totalLab" layout="margin:13" attr="fontSize:14,color:gray,linesNum:0,text:6,88"/>
+
+        </UIView>
+
+    </UIView>
+
+        <FlexTouchView onPress="payAction" layout="margin:20,justifyContent:center,alignItems:center" attr="underlayColor:darkGray,bgColor:#1E253D,borderRadius:7">
+            <UILabel name="" layout="margin:13" attr="fontSize:14,color:white,linesNum:0,text:立即付款"/>
+        </FlexTouchView>
+
+</UIView>

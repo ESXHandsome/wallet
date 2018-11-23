@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!--
+   WLNMineFormDetailHeadView.xml
+   KangYangChain
+
+   Created by edz on 2018/10/17.
+   Copyright (c) 2018 furao. All rights reserved.
+-->
+<UIView layout="marginTop:10" attr="@:css/colors">
+
+
+    <UIView layout="height:40,flexDirection:row" attr="bgColor:white">
+
+        <UILabel name="" layout="width:20%" attr="fontSize:12,color:#333333,linesNum:0,text:会员名,textAlign:center"/>
+        <UILabel name="" layout="width:20%" attr="fontSize:12,color:#333333,linesNum:0,text:手机号,textAlign:center"/>
+        <UILabel name="" layout="width:20%" attr="fontSize:12,color:#333333,linesNum:0,text:数量,textAlign:center"/>
+        <UILabel name="" layout="width:20%" attr="fontSize:12,color:#333333,linesNum:0,text:状态,textAlign:center"/>
+        <UILabel name="" layout="width:20%" attr="fontSize:14,color:#333333,linesNum:0,text:站位,alpha:0,,textAlign:center"/>
+    </UIView>
+
+    <UILabel name="" layout="height:1,flex:1" attr="fontSize:14,@:css/colors,linesNum:0,text:"/>
+
+   
+
+</UIView>

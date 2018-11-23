@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!--
+   WLNYingSunView.xml
+   KangYangChain
+
+   Created by edz on 2018/11/9.
+   Copyright (c) 2018 furao. All rights reserved.
+-->
+
+
+
+
+<UIView layout="" attr="bgColor:white,borderRadius:7,masksToBounds:true">
+
+
+        <UIView layout="flexDirection:row" attr="bgColor:white">
+
+            <FlexTouchView name="zhiyingView" onPress="yingsunAction:" layout="flex:1" attr="tag:1">
+                <UILabel name="" layout="flex:1,margin:10" attr="fontSize:12,color:#333333,linesNum:0,text:止盈,textAlign:center"/>
+            </FlexTouchView>
+
+            <FlexTouchView name="zhisunView" onPress="yingsunAction:" layout="flex:1" attr="bgColor:lightGray,tag:2">
+                <UILabel name="" layout="margin:10" attr="fontSize:12,color:#333333,linesNum:0,text:止损,textAlign:center"/>
+            </FlexTouchView>
+
+        </UIView>
+        <UIView layout="flexDirection:row,margin:20,marginBottom:0" attr="">
+    
+            <UITextField name="txt" layout="flex:1,height:25" attr="fontSize:12,color:black,textAlign:left,placeholder:输入金额,text:,
+            borderWidth:0.3,borderColor:gray,borderRadius:5,keyboardType:numberPad"/>
+            <FlexTouchView onPress="doneAction" layout="marginLeft:5" attr="underlayColor:darkGray,bgColor:lightGray,borderRadius:5">
+                <UILabel name="" layout="margin:5" attr="fontSize:12,color:#333333,linesNum:0,text:确认"/>
+            </FlexTouchView>
+  
+        </UIView>
+        <UILabel name="" layout="margin:10,marginBottom:0,marginLeft:20" attr="fontSize:10,color:gray,linesNum:0,text:当盈利达到止盈金额"/>
+        <UILabel name="" layout="margin:10,marginLeft:20" attr="fontSize:10,color:gray,linesNum:0,text:将会自动进行止盈平仓"/>
+
+</UIView>
+
+
+
+
+
+

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<UIImageView attr="source:background,userInteractionEnabled:true" layout="flex:1" >
+    <UIView layout="alignItems:center,margin:80,marginBottom:40" attr="">
+        <UIImageView attr="source:btcicon" layout="width:100,height:100"/>
+    </UIView>
+
+    <UIView layout="flexDirection:row,marginLeft:50,marginRight:50" attr="borderRadius:7,bgColor:#7A7A7A">
+
+        <UILabel name="" layout="marginLeft:15" attr="fontSize:14,color:white,linesNum:0,text:+86"/>
+        <UITextField name="phoneT" layout="height:40,flex:1,marginLeft:10" attr="keyboardType:numberPad,fontSize:14,color:white,textAlign:left,placeholder:@手机号,"/>
+
+    </UIView>
+
+    <UIView layout="flexDirection:row,marginLeft:50,marginRight:50,marginTop:15,alignItems:center" attr="borderRadius:7,bgColor:#7A7A7A">
+
+        <UIImageView attr="source:yanzhengma" layout="marginLeft:15"/>
+        <UITextField name="codeT" layout="justifyContent:center, height:40,flex:1,marginLeft:10" attr="keyboardType:numberPad,fontSize:14,color:white,textAlign:left,placeholder:@验证码"/>
+
+        <FlexTouchView name="" onPress="getCodeAction:" layout="marginRight:10,height:30,justifyContent:center,alignItems:center" attr="underlayColor:darkGray">
+            <UILabel name="codeLab" layout="" attr="textAlign:center, fontSize:12,color:white,linesNum:0,text:@获取验证码"/>
+        </FlexTouchView>
+
+    </UIView>
+    
+    <UIView layout="flexDirection:row,marginLeft:50,marginRight:50,marginTop:15,alignItems:center" attr="bgColor:#7A7A7A,borderRadius:7">
+        <UIImageView attr="source:Login_lock" layout="marginLeft:15"/>
+        <UITextField name="pwdT" layout="height:40,flex:1,marginLeft:10" attr="secureTextEntry:true,fontSize:14,color:white,textAlign:left,placeholder:@设置密码,"/>
+
+        <FlexTouchView onPress="hideAction:" layout="height:40,width:40,justifyContent:center,alignItems:center" attr="underlayColor:darkGray">
+
+            <UIImageView attr="source:display" layout="height:10,width:15"/>
+
+        </FlexTouchView>
+
+    </UIView>
+
+     <UIView layout="flexDirection:row,marginLeft:50,marginRight:50,marginTop:15,alignItems:center" attr="bgColor:#7A7A7A,borderRadius:7">
+        <UIImageView attr="source:surePwd" layout="marginLeft:15"/>
+        <UITextField name="surePwdT" layout="height:40,flex:1,marginLeft:10" attr="secureTextEntry:true,fontSize:14,color:white,textAlign:left,placeholder:@确认密码,"/>
+
+        <FlexTouchView onPress="sureHideAction:" layout="height:40,width:40,justifyContent:center,alignItems:center" attr="underlayColor:darkGray">
+
+            <UIImageView attr="source:display" layout="height:10,width:15"/>
+
+        </FlexTouchView>
+
+    </UIView>
+    
+
+    <UIView layout="flexDirection:row,justifyContent:space-between,marginTop:10,marginLeft:50,marginRight:50" attr="">
+        <FlexTouchView>
+            <UILabel name="" layout="" attr="fontSize:14,color:white,linesNum:0,text:"/>
+        </FlexTouchView>
+
+        <UIView layout="flexDirection:row" attr="">
+
+            <FlexTouchView>
+                <UILabel name="" layout="" attr="fontSize:14,color:white,linesNum:0,text:@已有账号?"/>
+            </FlexTouchView>
+
+            <FlexTouchView onPress="logAction" attr="underlayColor:darkGray">
+                <UILabel name="" layout="" attr="fontSize:14,color:orange,linesNum:0,text:@去登录"/>
+            </FlexTouchView>
+
+        </UIView>
+
+    </UIView>
+
+
+   <FlexTouchView name="" layout="margin:50,height:40,justifyContent:center,marginBottom:0" attr="bgColor:white,borderRadius:7,underlayColor:darkGray" 
+   onPress="registerAction">
+        <UILabel name="" layout="" attr="fontSize:14,color:#333333,linesNum:0,text:@注册,textAlign:center"/>
+   </FlexTouchView>
+
+
+   <!-- <UIView layout="flexDirection:row,margin:30,justifyContent:center,alignItems:center" attr="">
+        <UILabel name="" layout="width:80,height:3,marginRight:10" attr="fontSize:14,color:white,linesNum:0,bgColor:white,text:"/>
+        <UILabel name="" layout="" attr="fontSize:14,color:white,linesNum:0,text:第三方快捷登录"/>
+        <UILabel name="" layout="width:80,height:3,marginLeft:10" attr="fontSize:14,color:white,linesNum:0,bgColor:white,text:"/>
+   </UIView>
+
+   <UIView layout="flexDirection:row,justifyContent:center" >
+
+        <FlexTouchView layout="width:80,alignItems:center" >
+            <UIImageView attr="source:qq" layout="@:WLNView/icon"/>
+        </FlexTouchView>
+
+        <FlexTouchView layout="width:80,alignItems:center">
+            <UIImageView attr="source:wechat" layout="@:WLNView/icon"/>
+        </FlexTouchView>       
+
+   </UIView> -->
+
+
+</UIImageView>

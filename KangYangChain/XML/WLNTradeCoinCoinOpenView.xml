@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!--
+   WLNTradeCoinCoinOpenView.xml
+   KangYangChain
+
+   Created by edz on 2018/10/25.
+   Copyright (c) 2018 furao. All rights reserved.
+-->
+
+<UIView layout="flex:1" attr="bgColor:gray">
+    <UIView layout="flexDirection:row,justifyContent:space-around" attr="@:css/colors">
+
+        <UILabel name="" layout="margin:10" attr="fontSize:14,color:#333333,linesNum:0,text:计价币种"/>
+        <UILabel name="" layout="" attr="fontSize:14,color:#333333,linesNum:0,text:交易币对"/>
+        <UILabel name="" layout="" attr="fontSize:14,color:#333333,linesNum:0,text:最新价"/>
+        <UILabel name="" layout="" attr="fontSize:14,color:#333333,linesNum:0,text:涨跌幅"/>
+
+    </UIView>
+
+    <UIView layout="flexDirection:row" attr="">
+    
+        <UITableView name="leftTab" layout="width:30%" attr=""/>
+
+        <UITableView name="rightTab" layout="flex:1" attr=""/>
+
+
+    </UIView>
+
+
+</UIView>

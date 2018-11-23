@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!--
+   WLNTradeLawCionCell.xml
+   KangYangChain
+
+   Created by edz on 2018/13/22.
+   Copyright (c) 2018 furao. All rights reserved.
+-->
+
+<UIView layout="" attr="@:css/colors">
+
+    <UIView layout="marginTop:13,marginBottom:1, flexDirection:row,justifyContent:space-between" attr="bgColor:white,@:css/shadows">
+
+        <UIView layout="flexDirection:row" attr="">
+            <UILabel name="nameLab" layout="margin:13" attr="font:bold|16,color:#333333,linesNum:0,text:姓名"/>
+            <UILabel name="finish_payLab" layout="" attr="fontSize:14,color:#333333,linesNum:0,text:"/>
+            <UILabel name="rateLab" layout="" attr="fontSize:14,color:#333333,linesNum:0,text:"/>   
+
+        </UIView>
+
+        <UIView layout="flexDirection:row" attr="">
+            <UIImageView attr="source:"/>
+            <UIImageView attr="source:"/>
+            <UIImageView attr="source:"/>
+        </UIView>
+
+        <UILabel name="statusLab" layout="marginRight:13" attr="fontSize:16,color:#333333,linesNum:0,text:"/>
+
+
+
+    </UIView>
+
+    <UIView layout="marginTop:0,marginBottom:1,flexDirection:row,justifyContent:space-between" attr="bgColor:white">
+
+        <UIView layout="width:33%" attr="">
+            <UILabel name="priceLab" layout="margin:13" attr="fontSize:14,color:#333333,linesNum:0,text:6.88"/>
+            <UILabel name="priceWordLab" layout="margin:13,marginTop:0" attr="fontSize:14,color:#333333,linesNum:0,text:价格(CNY)"/>
+        </UIView>
+
+        <UILabel name="" layout="width:2,marginTop:13,marginBottom:13" attr="fontSize:16,@:css/colors,linesNum:0,text:"/>
+
+        <UIView layout="width:33%" attr="">
+            <UILabel name="xianeLab" layout="margin:13" attr="fontSize:14,color:#333333,linesNum:0,text:8000-8400"/>
+            <UILabel name="xianeWordLab" layout="margin:13,marginTop:0" attr="fontSize:14,color:#333333,linesNum:0,text:限额"/>
+        </UIView>
+
+        <UILabel name="" layout="width:2,marginTop:13,marginBottom:13" attr="fontSize:16,@:css/colors,linesNum:0,text:"/>
+
+        <UIView layout="width:33%" attr="">
+            
+            <UILabel name="numLab" layout="margin:13" attr="fontSize:14,color:#333333,linesNum:0,text:1432.22"/>
+            <UILabel name="numWordLab" layout="margin:13,marginTop:0" attr="fontSize:14,color:#333333,linesNum:0,text:数量"/>
+        
+        </UIView>
+
+    </UIView>
+
+    <UIView  name="bottomView" layout="alignItems:flex-end" attr="bgColor:white,hidden:true">
+
+
+        <UIView layout="flexDirection:row,marginRight:13" attr="">
+            <FlexTouchView onPress="chedanAction" layout="marginRight:20,margin:5" attr="underlayColor:darkGray,bgColor:lightGray,
+            borderRadius:3">
+                <UILabel name="" layout="margin:5" attr="fontSize:14,color:white,linesNum:0,text:撤单"/>
+            </FlexTouchView>
+
+            <FlexTouchView onPress="zantingAction" layout="margin:5" attr="underlayColor:darkGray,bgColor:#5F9FE9,
+            borderRadius:3">
+                <UILabel name="zantingLab" layout="margin:5" attr="fontSize:14,color:white,linesNum:0,text:暂停接单"/>
+            </FlexTouchView>
+
+        </UIView>
+
+
+
+    </UIView>
+
+
+
+</UIView>
+

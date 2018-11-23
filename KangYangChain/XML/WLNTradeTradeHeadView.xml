@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!--
+   WLNTradeTradeHeadView.xml
+   KangYangChain
+
+   Created by edz on 2018/10/27.
+   Copyright (c) 2018 furao. All rights reserved.
+-->
+
+<UIView layout="flexDirection:row,justifyContent:space-between" attr="bgColor:white">
+
+    <FlexTouchView onPress="headClickAction:" layout="flexDirection:row,alignItems:center" attr="underlayColor:darkGray">
+        <UILabel name="biLab" layout="margin:13,marginRight:0" attr="fontSize:17,color:#333333,linesNum:0,text:BTC"/>
+        <UILabel name="" layout="marginRight:13" attr="fontSize:17,color:#333333,linesNum:0,text:指数"/>        
+        <UIImageView attr="source:Arrow_down_white"/>
+    </FlexTouchView>
+
+    <UIView layout="flexDirection:row,marginRight:10,alignItems:center" attr="">
+        <UILabel name="priceLab" layout="" attr="fontSize:14,color:white,linesNum:0,text:--"/>
+        <UIImageView attr="source:uuiii" layout="marginLeft:10"/>
+    </UIView>
+
+</UIView>
+
+
+

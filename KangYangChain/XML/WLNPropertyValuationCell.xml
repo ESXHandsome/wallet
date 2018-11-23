@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<UIView layout="" attr="@:css/colors">
+
+    <UIView layout="margin:10" attr="bgColor:white,borderRadius:10,clipsToBounds:true">
+        <UIView layout="alignItems:center" attr="">
+             <UILabel name="" layout="marginTop:20,marginBottom:20" attr="fontSize:16,color:black,linesNum:0,text:交易账户"/>
+              <UIView layout="flexDirection:row" attr="">
+                <UILabel name="" layout="marginBottom:20" attr="fontSize:30,color:#2151C2,linesNum:0,text:0.00"/>
+                <UILabel name="" layout="marginBottom:20" attr="fontSize:20,color:#2151C2,linesNum:0,text:BTC"/>
+
+             </UIView>
+
+
+        </UIView>
+       
+        <UIView layout="flexDirection:row,justifyContent:space-around" attr="">
+            <UIView layout="flexDirection:row,alignItems:center" attr="">
+                <UILabel name="" layout="width:6,height:6,marginRight:10" attr="bgColor:#00D0AE,borderRadius:3, clipsToBounds:true"/>
+                <UILabel name="" layout="" attr="fontSize:16,color:black,linesNum:0,text:@币币账户,"/>
+            </UIView>
+            
+            <UILabel name="" layout="" attr="fontSize:14,color:black,linesNum:0,text:0.00BTC"/>
+            <UILabel name="" layout="" attr="fontSize:14,color:black,linesNum:0,text:@详情"/>
+
+        </UIView>
+
+        <UIView layout="flexDirection:row,justifyContent:space-around,marginTop:10" attr="">
+            <UIView layout="flexDirection:row,alignItems:center" attr="">
+                <UILabel name="" layout="width:6,height:6,marginRight:10" attr="bgColor:#003ECF,borderRadius:3, clipsToBounds:true"/>
+                <UILabel name="" layout="" attr="fontSize:16,color:black,linesNum:0,text:@法币账户"/>
+            </UIView>
+            
+            <UILabel name="" layout="" attr="fontSize:14,color:black,linesNum:0,text:0.00BTC"/>
+            <UILabel name="" layout="" attr="fontSize:14,color:black,linesNum:0,text:@详情"/>
+
+        </UIView>
+
+        <UIView layout="flexDirection:row,justifyContent:space-around,marginTop:10,marginBottom:10" attr="">
+            <UIView layout="flexDirection:row,alignItems:center" attr="">
+                <UILabel name="" layout="width:6,height:6,marginRight:10" attr="bgColor:#FF5675,borderRadius:3, clipsToBounds:true"/>
+                <UILabel name="" layout="" attr="fontSize:16,color:black,linesNum:0,text:@合约账户"/>
+            </UIView>
+           
+            <UILabel name="" layout="" attr="fontSize:14,color:black,linesNum:0,text:0.00BTC"/>
+            <UILabel name="" layout="" attr="fontSize:14,color:black,linesNum:0,text:@详情"/>
+
+        </UIView>
+    </UIView>
+ 
+
+</UIView>

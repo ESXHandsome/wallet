@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+
+<UIView layout="flex:1" attr="@:css/colors">
+
+    <UIView layout="margin:10" attr="bgColor:white,borderRadius:7">
+
+
+
+        <UIView layout="flexDirection:row,height:50" attr="">
+            <UILabel name="" layout="marginLeft:15" attr="fontSize:14,color:#333333,linesNum:0,text:手机号"/>
+            <UITextField name="phoneTxt" layout="marginLeft:20" attr="fontSize:14,color:black,textAlign:left,placeholder:请输入手机号,text:"/>
+
+        </UIView>
+
+        <UIView layout="alignItems:center,flexDirection:row,height:50" attr="">
+            <UILabel name="titleLab" layout="marginLeft:15" attr="fontSize:14,color:#333333,linesNum:0,text:新密码"/>
+            <UITextField name="pwdTxt" layout="marginLeft:20" attr="fontSize:14,color:black,textAlign:left,placeholder:请输入新密码,text:"/>
+
+        </UIView>
+
+        <UIView layout="alignItems:center,flexDirection:row,height:50" attr="">
+
+            <UILabel name="titleLab" layout="marginLeft:15" attr="fontSize:14,color:#333333,linesNum:0,text:验证码"/>
+            <UITextField name="codeTxt" layout="marginLeft:20,flex:1" attr="fontSize:14,color:black,textAlign:left,placeholder:请输入验证码,text:"/>
+
+            <FlexTouchView onPress="" layout="" attr="underlayColor:darkGray">
+                <UILabel name="" layout="marginRight:10,height:50" attr="fontSize:14,color:black,linesNum:0,text:发送验证码"/>
+            </FlexTouchView>
+  
+        </UIView>
+      
+    </UIView>
+
+</UIView>
+

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<UIView layout="flex:1" attr="@:css/colors">
+
+   <UIView layout="margin:10,marginBottom:1" attr="bgColor:white,borderRadius:5,clipsToBounds:true">
+
+       <UIView layout="flexDirection:row,margin:15" attr="">
+
+           <UIImageView name="headImg" attr="source:" layout="@:css/icon" />
+
+           <UIView layout="marginLeft:10" attr="">
+
+                <UILabel name="nameLab" layout="" attr="fontSize:14,color:#333333,linesNum:0,text:拖鞋高手"/>
+               <UILabel name="remarkLab" layout="" attr="fontSize:12,color:#D0D0D0,linesNum:0,text:热爱生活"/>
+
+           </UIView>
+
+       </UIView>
+
+        <UIView layout="flexDirection:row" attr="">
+
+            <UILabel name="contentLab" layout="flex:1,marginLeft:10,marginRight:10" attr="fontSize:14,color:#333333,linesNum:0,@:css/colors,text:加密货币加密货币加密货币加密货币加密"/>
+            <UIImageView name="contentImg" attr="source:" layout="@:css/contentImg,marginRight:10." />
+
+        </UIView>
+     
+        <UILabel name="ofLab" layout="marginLeft:10,marginTop:10" attr="font:12,color:blue,linesNum:0,text:#肥宅#"/>
+
+
+        <UIView layout="flexDirection:row,justifyContent:space-between,margin:10" attr="">
+
+             <UILabel name="lookLab" layout="" attr="fontSize:12,color:#333333,linesNum:0,text:浏览789次"/>
+
+
+            <UIView layout="flexDirection:row" attr="">
+            <UIImageView attr="source:Snip20181002_4" layout="@:css/icon"/>
+            <UILabel name="leftLab" layout="" attr="fontSize:12,color:#D0D0D0,linesNum:0,text:0"/>
+            <UIImageView attr="source:Snip20181002_5" layout="@:css/icon"/>
+            <UILabel name="centerLab" layout="" attr="fontSize:12,color:#D0D0D0,linesNum:0,text:123"/>
+            <UIImageView attr="source:Snip20181002_6" layout="@:css/icon"/>
+            <UILabel name="rightLab" layout="" attr="fontSize:12,color:#D0D0D0,linesNum:0,text:456"/>
+
+        
+        </UIView>
+
+        </UIView>
+
+        
+
+   </UIView>
+
+</UIView>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!--
+   WLNScanTipView.xml
+   KangYangChain
+
+   Created by edz on 2018/10/24.
+   Copyright (c) 2018 furao. All rights reserved.
+-->
+
+<UIView layout="justifyContent:center,alignItems:center" attr="">
+    <UIImageView attr="source:locks" layout="width:150,height:150"/>
+    <UILabel name="" layout="" attr="fontSize:14,color:white,linesNum:0,text:请在 设置-隐私-相机 选项中\,允许访问你的相机"/>
+</UIView>

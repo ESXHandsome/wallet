@@ -1,0 +1,85 @@
+/* 
+  Localizable.strings
+  LanguageSettingsDemo
+
+  Created by DarkAngel on 2017/5/4.
+  Copyright © 2017年 暗の天使. All rights reserved.
+*/
+
+"首页" = "Home";
+"商城" = "Shop";
+"交易所" = "Exchange";
+"资产" = "Assets";
+"我的" = "Mine";
+"法币账户" = "Currency account";
+"合约账户" = "Contract account";
+"身份认证" = "Identity authentication";
+"账户安全" = "Account security";
+"支付设置" = "Payment setting";
+"手续费等级" = "Fee grade";
+"币币账户" = "BiBi account";
+"扫码推广" = "Sweep code popularization";
+"互助推广" = "Mutual assistance promotion";
+"GHB钱包" = "GHB Wallet";
+"退出登录"  = "Sign out";
+"取消" = "Cancle";
+"我的钱包" = "Wallet";
+"我的订单" = "Order";
+"我的社区" = "Community";
+"最新行情" = "The latest quotes";
+"热门帖子" = "Hot post";
+"我的地址" = "Address";
+"我的订阅" = "Subscribe";
+"商学院" = "Schools";
+"手机号" = "Phone number";
+"密码" = "password";
+"忘记密码?" = "Forget password?";
+"忘记密码"= "Forget password";
+"没有账号?" = "No account?";
+"去注册" = "register";
+"登录" = "Login";
+"验证码" = "Verification code";
+"获取" = "gain";
+"设置密码" = "Set a password";
+"已有账号?" = "Have a account?";
+"去登录" = "Log in";
+"注册" = "register";
+"请输入手机号" = "Please enter cell phone number";
+"新密码" = "New password";
+"请输入新密码" = "Please enter a new password";
+"请输入验证码" = "Please input verification code";
+"发送验证码" = "Send verification code";
+"完成" = "Done";
+"账户估值" = "Account valuation";
+"行情" = "Quotation";
+"法币" = "Legal currency";
+"币币" = "Currency";
+"合约" = "Contract";
+"自选" = "Self select";
+"充币" = "Charge";
+"提币" = "Extract";
+"资金转化" = "Cash conversion";
+"账单" = "Bill";
+"积分:" = "Integral";
+"锁仓" = "Lock";
+"购买GHB" = "Buy GHB";
+"兑换" = "Exchange";
+"切换中文成功" = "Switch to Chinese success";
+"切换英文成功" = "Switch to English Success";
+"详情" = "Details";
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

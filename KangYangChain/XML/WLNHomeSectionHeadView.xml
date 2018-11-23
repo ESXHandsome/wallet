@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<UIView layout="flexDirection:row,marginLeft:10,alignItems:center,height:40" attr="@:css/colors">
+
+    <UILabel name="leftLab" layout="" attr="fontSize:14,color:#333333,linesNum:0,text:"/>
+    <UILabel name="rightLab" layout="marginLeft:3" attr="fontSize:14,color:red,linesNum:0,text:"/>
+
+</UIView>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!--
+   WLNRechargeDetailCell.xml
+   KangYangChain
+
+   Created by edz on 2018/10/24.
+   Copyright (c) 2018 furao. All rights reserved.
+-->
+<UIView layout="" attr="@:css/colors">
+    <UIView layout="margin:10" attr="bgColor:white,borderRadius:7">
+
+        <UIView layout="alignItems:center" attr="">
+            <UILabel name="" layout="margin:10" attr="fontSize:25,color:#333333,linesNum:0,text:0.01"/>
+            <UILabel name="" layout="margin:10" attr="fontSize:14,color:#333333,linesNum:0,text:已到账"/>
+        </UIView>
+
+ 
+        <UIView layout="flexDirection:row,justifyContent:space-between" attr="">
+
+            <UIView layout="width:50%" attr="">
+                <UILabel name="" layout="margin:10" attr="fontSize:14,color:#333333,linesNum:0,text:币种"/>
+                <UILabel name="" layout="margin:10" attr="fontSize:14,color:#333333,linesNum:0,text:手续费"/>
+
+                <UILabel name="" layout="height:1" attr="@:css/colors,fontSize:14,linesNum:0,text:"/>
+
+                <UILabel name="" layout="margin:10" attr="fontSize:14,color:#333333,linesNum:0,text:提币时间"/>
+                <UILabel name="" layout="margin:10" attr="fontSize:14,color:#333333,linesNum:0,text:流水号"/>
+                <UILabel name="" layout="margin:10" attr="fontSize:14,color:#333333,linesNum:0,text:货币地址"/>
+
+                <UILabel name="" layout="height:1" attr="@:css/colors,fontSize:14,linesNum:0,text:"/>
+
+                <UILabel name="" layout="margin:10" attr="fontSize:14,color:#333333,linesNum:0,text:描述"/>
+                <UILabel name="" layout="margin:10" attr="fontSize:14,color:#333333,linesNum:0,text:操作"/>
+
+            </UIView>
+
+            <UIView layout="" attr="">
+                <UILabel name="" layout="margin:10" attr="fontSize:14,color:#333333,linesNum:0,text:btc,textAlign:
+                right"/>
+                <UILabel name="" layout="margin:10" attr="fontSize:14,color:#333333,linesNum:0,text:0,0001,textAlign:
+                right"/>
+                <UILabel name="" layout="margin:10" attr="fontSize:14,color:#333333,linesNum:0,text:2018-9-09 12:00,textAlign:
+                right"/>
+                <UILabel name="" layout="margin:10" attr="fontSize:14,color:#333333,linesNum:0,text:xxxxxxx,textAlign:
+                right"/>
+                <UILabel name="" layout="margin:10" attr="fontSize:14,color:#333333,linesNum:0,text:xxxxxxx,textAlign:
+                right"/>
+                <UILabel name="" layout="margin:10" attr="fontSize:14,color:#333333,linesNum:0,text:xxxxxxx,textAlign:
+                right"/>
+                <UILabel name="" layout="margin:10" attr="fontSize:14,color:#333333,linesNum:0,text:xxxxxxx,textAlign:
+                right"/>
+            </UIView>
+
+        </UIView>
+
+
+    </UIView>
+
+</UIView>
+

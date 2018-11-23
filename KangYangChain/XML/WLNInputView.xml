@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!--
+   WLNInputView.xml
+   KangYangChain
+
+   Created by edz on 2018/11/8.
+   Copyright (c) 2018 furao. All rights reserved.
+-->
+<UIView layout="flexDirection:row" attr="@:css/colors">
+
+    <FlexTextView name="inputTxt" layout="margin:5,flex:1" attr="fontSize:14,color:black,textAlign:left,borderColor:gray,borderWidth:0.4,
+    borderRadius:7,placeholder:写点什么..."/>
+    <FlexTouchView onPress="sendAction" layout="width:50, margin:5,marginLeft:0,justifyContent:center,alignItems:center" attr="underlayColor:darkGray,WLNShopBuyHBGCtr,
+    bgColor:white,borderRadius:7">
+        <UILabel name="" layout="" attr="fontSize:14,color:#333333,linesNum:0,text:发送"/>
+    </FlexTouchView>
+
+
+
+</UIView>   

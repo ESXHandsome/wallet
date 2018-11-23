@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<UIView layout="" attr="bgColor:#F5F5F5">
+
+    <UIView layout="flexDirection:row,justifyContent:space-around,height:40" attr="bgColor:white">
+
+        <FlexTouchView>
+
+            <UILabel name="" layout="" attr="fontSize:14,color:#333333,linesNum:0,text:行情"/>
+        </FlexTouchView>
+
+        <FlexTouchView>
+
+            <UILabel name="" layout="" attr="fontSize:14,color:#333333,linesNum:0,text:法币"/>
+
+        </FlexTouchView>
+
+        <FlexTouchView>
+
+            <UILabel name="" layout="" attr="fontSize:14,color:#333333,linesNum:0,text:币币"/>
+
+        </FlexTouchView>
+
+        <FlexTouchView>
+            <UILabel name="" layout="" attr="fontSize:14,color:#333333,linesNum:0,text:合约"/>
+
+
+        </FlexTouchView>
+
+        
+
+    </UIView>
+
+    <UIView layout="marginTop:5,flexDirection:row,justifyContent:space-around,height:40" attr="bgColor:white">
+
+        <FlexTouchView>
+
+            <UILabel name="" layout="" attr="fontSize:14,color:#333333,linesNum:0,text:合约"/>
+
+        </FlexTouchView>
+
+         <FlexTouchView>
+
+            <UILabel name="" layout="" attr="fontSize:14,color:#333333,linesNum:0,text:合约"/>
+
+        </FlexTouchView>
+
+        <FlexTouchView>
+
+            <UILabel name="" layout="" attr="fontSize:14,color:#333333,linesNum:0,text:合约"/>
+
+        </FlexTouchView>
+
+         <FlexTouchView>
+
+            <UILabel name="" layout="" attr="fontSize:14,color:#333333,linesNum:0,text:合约"/>
+
+        </FlexTouchView>
+
+         <FlexTouchView>
+
+            <UILabel name="" layout="" attr="fontSize:14,color:#333333,linesNum:0,text:合约"/>
+
+        </FlexTouchView>
+
+    </UIView>
+
+</UIView>

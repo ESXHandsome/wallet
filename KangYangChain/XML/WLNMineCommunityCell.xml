@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<UIView layout="" attr="@:css/colors">
+
+    <UIView layout="margin:10,marginBottom:0,flexDirection:row,alignItems:center,justifyContent:space-between,height:70" attr="bgColor:white,borderRadius:7,
+    @:css/shadows">
+
+        <UIView layout="flexDirection:row,alignItems:center" attr="">
+            <UIImageView name="img" attr="source:group" layout="marginLeft:10"/>
+            <UIView layout="marginLeft:10" attr="">
+                <UILabel name="titleLab" layout="" attr="fontSize:14,color:#333333,linesNum:0,text:GHB社群"/>
+                <UILabel name="contentLab" layout="" attr="fontSize:12,color:gray,linesNum:0,text:解答你不知道的事"/>
+            </UIView>
+        </UIView>
+        
+        <UIImageView attr="source:goback" layout="marginRight:10"/>
+
+    </UIView>
+
+</UIView>
+

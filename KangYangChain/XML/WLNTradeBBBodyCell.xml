@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!--
+   WLNTradeBBBodyCell.xml
+   KangYangChain
+
+   Created by edz on 2018/11/9.
+   Copyright (c) 2018 furao. All rights reserved.
+-->
+<UIView layout="" attr="@:css/colors">
+
+
+    <UIView layout="marginTop:13" attr="bgColor:white">
+    
+        <UIView layout="flexDirection:row,justifyContent:space-between" attr="">
+            <UILabel name="" layout="margin:13" attr="font:17,color:#333333,linesNum:0,text:限价单"/>
+            <FlexTouchView onPress="chedanAllAction" layout="" attr="underlayColor:darkGray">
+
+                <UILabel name="" layout="margin:13" attr="fontSize:17,color:#5F9FEB,linesNum:0,text:全部撤单"/>
+
+            </FlexTouchView>
+        </UIView>
+
+        <UILabel name="" layout="height:0.3" attr="fontSize:14,@:css/colors,linesNum:0,text:"/>
+
+        <UIView layout="flexDirection:row,justifyContent:space-between" attr="">
+
+            <UILabel name="typeLab" layout="margin:13" attr="font:bold|14,color:#333333,linesNum:0,text:买入BTC"/>
+            <UILabel name="timeLab" layout="" attr="fontSize:14,color:#333333,linesNum:0,text:14:14:00"/>
+            <FlexTouchView onPress="chedanSingleAction" layout="margin:13" attr="underlayColor:darkGray,bgColor:#5F9FEB,
+            borderRadius:5">
+                <UILabel name="" layout="margin:5" attr="fontSize:13,color:white,linesNum:0,text:撤单"/>
+            </FlexTouchView>
+
+        </UIView>
+
+        <UIView layout="flexDirection:row,justifyContent:space-between" attr="">
+
+            <UIView layout="margin:13,marginTop:0" attr="">
+                <UILabel name="" layout="" attr="fontSize:14,color:#333333,linesNum:0,text:委托数量"/>
+                <UILabel name="weituoLab" layout="marginTop:5" attr="fontSize:14,color:#333333,linesNum:0,text:0.14"/>
+            </UIView>
+
+            <UIView layout="margin:13,marginTop:0" attr="">
+                <UILabel name="" layout="" attr="fontSize:14,color:#333333,linesNum:0,text:成交量"/>
+                <UILabel name="chengjiaoLab" layout="marginTop:5" attr="fontSize:14,color:#333333,linesNum:0,text:0.14"/>
+            </UIView>
+
+            <UIView layout="margin:13,marginTop:0" attr="">
+
+                <UILabel name="" layout="" attr="fontSize:14,color:#333333,linesNum:0,text:委托价格"/>
+                <UILabel name="priceLab" layout="marginTop:5" attr="fontSize:14,color:#333333,linesNum:0,text:$5444"/>
+            
+            </UIView>
+
+        </UIView>
+
+        <FlexTouchView onPress="lookAllAction" layout="alignItems:center" attr="underlayColor:darkGray,@:css/colors">
+            <UILabel name="" layout="margin:13" attr="fontSize:14,color:#5F9FEB,linesNum:0,text:查看全部"/>
+        </FlexTouchView>
+
+    </UIView>
+</UIView>
+

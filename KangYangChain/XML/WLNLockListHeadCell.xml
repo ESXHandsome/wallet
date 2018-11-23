@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!--
+   WLNLockListHeadCell.xml
+   KangYangChain
+
+   Created by edz on 2018/10/23.
+   Copyright (c) 2018 furao. All rights reserved.
+-->
+<UIView layout="flexDirection:row,justifyContent:space-around,height:44" attr="">
+
+    <UILabel name="" layout="" attr="fontSize:14,color:#333333,linesNum:0,text:币种"/>
+    <UILabel name="" layout="" attr="fontSize:14,color:#333333,linesNum:0,text:转入数量"/>
+    <UILabel name="" layout="" attr="fontSize:14,color:#333333,linesNum:0,text:锁仓时间"/>
+    <UILabel name="" layout="" attr="fontSize:14,color:#333333,linesNum:0,text:收益"/>
+    <UILabel name="" layout="" attr="fontSize:14,color:#333333,linesNum:0,text:状态"/>
+
+</UIView>
+
+

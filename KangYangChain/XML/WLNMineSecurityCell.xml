@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<UIView layout="" attr="@:css/colors">
+
+    <UIView layout="marginLeft:10,marginRight:10,height:40,flexDirection:row,justifyContent:space-between" attr="bgColor:white">
+        <UILabel name="titleLab" layout="marginLeft:10" attr="fontSize:14,color:#333333,linesNum:0,text:手势密码"/>
+        <UILabel name="" layout="marginRight:10" attr="fontSize:14,color:#333333,linesNum:0,text:去设置"/>
+    </UIView>
+
+
+</UIView>

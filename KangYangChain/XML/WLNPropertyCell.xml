@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<UIView layout="" attr="@:css/colors">
+    
+    <UIView layout="margin:10" attr="bgColor:white,borderRadius:7,@:css/shadows">
+
+        <UILabel name="" layout="margin:20" attr="fontSize:16,color:#333333,linesNum:0,text:交易账户"/>
+
+        <UIView layout="flexDirection:row,marginLeft:20,marginRight:20" attr="">
+            <UILabel name="totalLab" layout="marginBottom:17" attr="fontSize:30,color:black,linesNum:0,text:0.00"/>
+            <UILabel name="" layout="marginBottom:17" attr="fontSize:20,color:black,linesNum:0,text:BTC"/>
+                
+        </UIView>
+            
+            
+        
+        <UIView layout="flexDirection:row,justifyContent:space-between,marginLeft:20,marginRight:20,marginBottom:5" attr="">
+            <UIView layout="flexDirection:row,alignItems:center" attr="">
+                <UILabel name="" layout="width:6,height:6,marginRight:10" attr="bgColor:#00D0AE,borderRadius:3, clipsToBounds:true"/>
+                <UILabel name="" layout="" attr="fontSize:16,color:black,linesNum:0,text:@币币账户,"/>
+            </UIView>
+            
+            <UILabel name="bbLab" layout="" attr="fontSize:14,color:black,linesNum:0,text:0.00BTC"/>
+
+            <FlexTouchView onPress="detailAcion:" layout="" attr="underlayColor:darkGray,tag:0">
+                <UILabel name="" layout="margin:5" attr="fontSize:14,color:black,linesNum:0,text:@详情"/>
+            </FlexTouchView>
+            
+            
+        </UIView>
+        
+        <UIView layout="flexDirection:row,justifyContent:space-between,marginLeft:20,marginRight:20,marginBottom:5" attr="">
+            <UIView layout="flexDirection:row,alignItems:center" attr="">
+                <UILabel name="" layout="width:6,height:6,marginRight:10" attr="bgColor:#003ECF,borderRadius:3, clipsToBounds:true"/>
+                <UILabel name="" layout="" attr="fontSize:16,color:black,linesNum:0,text:@C2C账户"/>
+            </UIView>
+            
+            <UILabel name="lawLab" layout="" attr="fontSize:14,color:black,linesNum:0,text:0.00BTC"/>
+
+            <FlexTouchView onPress="detailAcion:" layout="" attr="underlayColor:darkGray,tag:1">
+                <UILabel name="" layout="margin:5" attr="fontSize:14,color:black,linesNum:0,text:@详情"/>
+
+            </FlexTouchView>
+            
+        </UIView>
+        
+        <UIView layout="flexDirection:row,justifyContent:space-between,marginLeft:20,marginRight:20,marginBottom:10,marginBottom:10" attr="">
+
+            <UIView layout="flexDirection:row,alignItems:center" attr="">
+                <UILabel name="" layout="width:6,height:6,marginRight:10" attr="bgColor:#FF5675,borderRadius:3, clipsToBounds:true"/>
+                <UILabel name="" layout="" attr="fontSize:16,color:black,linesNum:0,text:@合约账户"/>
+            </UIView>
+            
+            <UILabel name="agreeLab" layout="" attr="fontSize:14,color:black,linesNum:0,text:0.00BTC"/>
+            <FlexTouchView onPress="detailAcion:" layout="" attr="underlayColor:darkGray,tag:2">
+
+                <UILabel name="" layout="margin:5" attr="fontSize:14,color:black,linesNum:0,text:@详情"/>
+
+            </FlexTouchView>
+            
+        </UIView>
+    </UIView>
+    
+    
+</UIView>

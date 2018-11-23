@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!--
+   WLNChangeCtr.xml
+   KangYangChain
+
+   Created by edz on 2018/10/23.
+   Copyright (c) 2018 furao. All rights reserved.
+-->
+
+<UIView layout="" attr="@:css/colors">
+
+    <UIView layout="flexDirection:row,marginTop:30,alignItems:center" attr="bgColor:white">
+
+        <FlexTouchView layout="flexDirection:row,alignItems:center,width:50%,justifyContent:center" attr="underlayColor:darkGray">
+            <UILabel name="" layout="margin:10" attr="fontSize:14,color:#333333,linesNum:0,text:币币账户"/>
+            <UIImageView attr="source:Arrow_down_white"/>
+        </FlexTouchView>
+
+        <UIImageView attr="source:goback"/>
+
+        <FlexTouchView layout="flexDirection:row,alignItems:center,width:50%,justifyContent:center" attr="underlayColor:darkGray">
+            <UILabel name="" layout="margin:10" attr="fontSize:14,color:#333333,linesNum:0,text:法币账户"/>
+            <UIImageView attr="source:Arrow_down_white"/>
+        </FlexTouchView>
+
+
+    </UIView>
+
+
+    <UIView layout="flexDirection:row,marginTop:30" attr="bgColor:white">
+    
+        <UILabel name="" layout="margin:10" attr="fontSize:14,color:#333333,linesNum:0,text:币种选择"/>
+        <UITextField name="" layout="" attr="fontSize:14,color:black,textAlign:left,placeholder:,text:请选择"/>
+    </UIView>
+
+
+    <UIView layout="flexDirection:row,marginTop:15" attr="bgColor:white">
+        <UILabel name="" layout="margin:10" attr="fontSize:14,color:#333333,linesNum:0,text:转化数量"/>
+        <UITextField name="" layout="" attr="fontSize:14,color:black,textAlign:left,placeholder:,text:请输入"/>
+    </UIView>
+
+    <UIView layout="flexDirection:row,marginTop:15" attr="bgColor:white">
+
+        <UILabel name="" layout="margin:10" attr="fontSize:14,color:#333333,linesNum:0,text:可转入额度"/>
+        <UILabel name="" layout="flex:1" attr="fontSize:14,color:#333333,linesNum:0,text:0.00"/>
+
+        <FlexTouchView onPress="" layout="marginRight:10,justifyContent:center" attr="underlayColor:darkGray">
+            <UILabel name="" layout="" attr="fontSize:14,color:#333333,linesNum:0,text:全部转入"/>
+        </FlexTouchView>
+    </UIView>
+
+    <FlexTouchView onPress="" layout="margin:20,height:44,justifyContent:center,alignItems:center" attr="underlayColor:darkGray,bgColor:#41559D,
+    borderRadius:7
+    ">
+
+        <UILabel name="" layout="" attr="fontSize:14,color:white,linesNum:0,text:确定转化"/>
+
+    </FlexTouchView>    
+
+
+
+</UIView>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<UIView layout="flex:1" attr="@:css/colors">
+
+    <UIView layout="alignItems:center,marginTop:30,marginBottom:30" attr="">
+
+         <UIImageView name="img"  attr="source:,bgColor:red" layout="width:200,height:200"/>
+
+
+        
+        <UIView layout="flexDirection:row,margin:20" attr="borderRadius:10,
+        borderColor:red,borderWidth:1,clipsToBounds:true">
+
+            <UILabel name="linkLab" layout="marginLeft:5,marginRight:5" attr="fontSize:12,color:black,linesNum:0,text:link"/>
+
+            <FlexTouchView onPress="copyAction" layout="justifyContent:center,
+            alignItems:center" attr="underlayColor:darkGray,bgColor:#E96762,">
+                <UILabel name="" layout="margin:5" attr="fontSize:11,color:white,linesNum:0,text:复制链接"/>
+            </FlexTouchView>
+
+        </UIView>
+        
+        <UILabel name="" layout="" attr="fontSize:14,color:red,linesNum:0,text:通过二维码推荐给其他朋友同时赚取积分"/>
+
+    </UIView>
+
+    <UITableView name="tab" layout="flex:1" attr=""/>
+
+
+
+</UIView>
+

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!--
+   WLNReceiveMoneyHisListCell.xml
+   KangYangChain
+
+   Created by edz on 2018/11/17.
+   Copyright (c) 2018 furao. All rights reserved.
+-->
+
+<UIView layout="flexDirection:row,justifyContent:space-around" attr="">
+
+    <UILabel name="timeLab" layout="margin:10" attr="fontSize:12,color:#333333,linesNum:0,text:--"/>
+    <UILabel name="bTypeLab" layout="" attr="fontSize:12,color:#333333,linesNum:0,text:--"/>
+    <UILabel name="numLab" layout="" attr="fontSize:12,color:#333333,linesNum:0,text:--"/>
+    <UILabel name="statusLab" layout="" attr="fontSize:12,color:#333333,linesNum:0,text:--"/>
+
+</UIView>

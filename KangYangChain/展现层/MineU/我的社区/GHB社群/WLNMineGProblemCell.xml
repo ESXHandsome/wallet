@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+
+<UIView layout="margin:10,height:50" attr="bgColor:red">
+
+    <UILabel name="" layout="" attr="fontSize:14,color:#333333,linesNum:0,text:Q:为什么最近暴涨1"/>
+    <UILabel name="" layout="" attr="fontSize:14,color:#333333,linesNum:0,text:content"/>
+    
+</UIView>
+

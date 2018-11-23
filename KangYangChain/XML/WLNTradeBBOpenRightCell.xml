@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!--
+   WLNTradeBBOpenRightCell.xml
+   KangYangChain
+
+   Created by edz on 2018/10/25.
+   Copyright (c) 2018 furao. All rights reserved.
+-->
+<UIView layout="flexDirection:row,justifyContent:space-around" attr="">
+    
+    <UILabel name="cionLab" layout="width:33%,marginTop:13,marginBottom:13" attr="fontSize:14,color:#333333,linesNum:0,text:BTC/USDT,
+    textAlign:center"/>
+    <UILabel name="priceLab" layout="width:33%" attr="fontSize:14,color:#333333,linesNum:0,text:0,textAlign:center"/>
+    <UILabel name="zhangdieLab" layout="width:33%" attr="fontSize:14,color:red,linesNum:0,text:0.00%,textAlign:center"/>
+    
+</UIView>

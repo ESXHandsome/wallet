@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!--
+   WLNTradeTradeCell.xml
+   KangYangChain
+
+   Created by edz on 2018/13/22.
+   Copyright (c) 2018 furao. All rights reserved.
+-->
+<UIView layout="flexDirection:row" attr="">
+
+    <UIView layout="width:50%" attr="">
+        <UIView layout="flexDirection:row,justifyContent:space-between" attr="">
+
+
+            <FlexTouchView onPress="danChooseAction:" layout="flexDirection:row,alignItems:center" attr="underlayColor:darkGray">
+                <UILabel name="ctypeLab" layout="margin:13" attr="fontSize:15,color:#333333,linesNum:0,text:市价单"/>
+                <UIImageView attr="source:Arrow_down"/>
+            </FlexTouchView>
+            
+            <FlexTouchView onPress="chooseAction:" layout="flexDirection:row,alignItems:center" attr="underlayColor:darkGray">
+
+                <UILabel name="leverLab" layout="margin:13,marginRight:5" attr="fontSize:15,color:#333333,linesNum:0,text:20X"/>
+                <UIImageView attr="source:Arrow_down"/>
+
+            </FlexTouchView>
+        </UIView>
+
+        <UILabel name="" layout="height:1" attr="fontSize:15,@:css/colors,linesNum:0,text:"/>
+
+        <UIView name="priceView" layout="flexDirection:row,margin:13,marginTop:15,marginBottom:0,justifyContent:space-around" attr="bgColor:white,@:css/shadows">
+            <UITextField name="priceTxt" layout="margin:13,flex:1" attr="fontSize:15,color:black,textAlign:left,placeholder:价格,text:"/>
+            <UILabel name="biLab" layout="marginRight:5" attr="fontSize:15,color:#333333,linesNum:0,text:USDT"/>
+        </UIView>
+
+
+        <UIView layout="flexDirection:row,margin:13,marginTop:15,justifyContent:space-around" attr="bgColor:white,@:css/shadows">
+            <UITextField name="biTxt" layout="margin:13,flex:1" attr="fontSize:15,color:black,textAlign:left,placeholder:数量,text:"/>
+            <UILabel name="biLab" layout="marginRight:5" attr="fontSize:15,color:#333333,linesNum:0,text:BTC"/>
+        </UIView>
+
+        <UILabel name="" layout="margin:13,marginTop:0,marginBottom:0" attr="fontSize:15,color:#333333,linesNum:0,text:止盈止损设置"/>
+
+        <UIView layout="flexDirection:row,margin:13" attr="">
+
+            <UIView layout="flex:1,justifyContent:center" attr="bgColor:white,@:css/shadows">
+                <UITextField name="maxTxt" layout="" attr="fontSize:15,color:black,textAlign:left,placeholder:止盈,text:,
+                textAlign:center"/>
+            </UIView>
+
+            <UILabel name="" layout="margin:13" attr="fontSize:15,color:#333333,linesNum:0,text:或"/>
+
+            <UIView layout="flex:1,justifyContent:center" attr="bgColor:white,@:css/shadows">
+                <UITextField name="minTxt" layout="" attr="fontSize:15,color:black,textAlign:left,placeholder:止损,text:,
+                textAlign:center"/>
+            </UIView>
+
+        </UIView>
+
+        <UIView layout="" attr="masksToBounds:true">
+        
+
+            <UILabel name="totalLab" layout="marginLeft:13,marginRight:13" attr="font:bold|14,color:#333333,linesNum:1,text:0.000 USDT"/>
+
+            <UILabel name="availableLab" layout="margin:13,marginBottom:0" attr="font:bold|14,color:#333333,linesNum:0,text:0.000 USDT"/>
+
+
+        </UIView>
+
+        <FlexTouchView onPress="byAction:" layout="margin:13,justifyContent:center,alignItems:center" attr="underlayColor:darkGray,bgColor:#51B873,
+        ,borderRadius:7,tag:0">
+            <UILabel name="" layout="margin:13" attr="fontSize:15,color:white,linesNum:0,text:买涨/做多"/>
+        </FlexTouchView>
+
+        <FlexTouchView onPress="byAction:" layout="margin:13,marginTop:0,justifyContent:center,alignItems:center" attr="underlayColor:darkGray,bgColor:#EB6661,
+        borderRadius:7,tag:1">
+            <UILabel name="" layout="margin:13" attr="fontSize:15,color:white,linesNum:0,text:买跌/做空"/>
+        </FlexTouchView>
+
+
+    </UIView>
+
+    <UIView layout="marginLeft:10,flex:1" attr="">
+
+        <UIView layout="flexDirection:row,justifyContent:space-between" attr="">
+            <UILabel name="" layout="margin:13" attr="fontSize:15,color:#333333,linesNum:0,text:价格(USDT)"/>
+            <UILabel name="" layout="margin:13" attr="fontSize:15,color:#333333,linesNum:0,text:时间"/>
+        </UIView>
+        <UILabel name="" layout="height:1" attr="fontSize:15,@:css/colors,linesNum:0,text:"/>
+
+        <UIView name="" layout="flexDirection:row,justifyContent:space-between,flex:1" attr="">
+            <UITableView name="listView" layout="flex:1" attr="scrollEnabled:false"/>
+        </UIView>
+
+
+
+    </UIView>
+
+
+
+</UIView>
+
+
+
+

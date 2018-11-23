@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!--
+   WLNAdressListAddCell.xml
+   KangYangChain
+
+   Created by edz on 2018/11/17.
+   Copyright (c) 2018 furao. All rights reserved.
+-->
+
+<UIView layout="" attr="@:css/colors">
+
+
+    <UIView layout="flexDirection:row" attr="bgColor:white">
+
+        <UIView layout="" attr="">
+
+            <UILabel name="" layout="margin:13" attr="fontSize:14,color:#333333,linesNum:0,text:币种"/>
+
+            <UILabel name="" layout="height:1" attr="fontSize:14,@:css/colors,linesNum:0,text:"/>
+
+            <UILabel name="" layout="margin:13" attr="fontSize:14,color:#333333,linesNum:0,text:备注"/>
+
+            <UILabel name="" layout="height:1" attr="fontSize:14,@:css/colors,linesNum:0,text:"/>
+
+            <UILabel name="" layout="margin:13" attr="fontSize:14,color:#333333,linesNum:0,text:地址"/>
+
+            <UILabel name="" layout="height:20" attr="fontSize:14,@:css/colors,linesNum:0,text:"/>
+
+            <UILabel name="" layout="margin:13" attr="fontSize:14,color:#333333,linesNum:0,text:手机号"/>
+
+            <UILabel name="" layout="height:1" attr="fontSize:14,@:css/colors,linesNum:0,text:"/>
+
+            <UILabel name="" layout="margin:13" attr="fontSize:14,color:#333333,linesNum:0,text:验证码"/>
+
+
+
+
+        </UIView>
+
+        <UIView layout="flex:1" attr="">
+
+            <FlexTouchView onPress="bChooseAction:" layout="flexDirection:row,justifyContent:space-between,alignItems:center" attr="underlayColor:darkGray">
+                <UILabel name="bTypeLab" layout="margin:13" attr="fontSize:14,color:#333333,linesNum:0,text:请选择币种"/>
+                <UIImageView attr="source:Arrow_down_white" layout="marginRight:10"/>
+            </FlexTouchView>
+
+            <UILabel name="" layout="height:1" attr="fontSize:14,@:css/colors,linesNum:0,text:"/>
+
+            <UITextField name="remarkTxt" layout="margin:13,flex:1" attr="fontSize:14,color:black,textAlign:left,placeholder:请输入备注,text:"/>
+
+            <UILabel name="" layout="height:1" attr="fontSize:14,@:css/colors,linesNum:0,text:"/>
+
+            <UIView layout="flexDirection:row,justifyContent:space-between,alignItems:center" attr="">
+                <UITextField name="addressTxt" layout="margin:13,flex:1" attr="fontSize:14,color:black,textAlign:left,placeholder:请输入地址,text:"/>
+                <UIImageView attr="source:Snip20181007_49"/>
+            </UIView>
+
+
+            <UILabel name="" layout="height:20" attr="fontSize:14,@:css/colors,linesNum:0,text:"/>
+
+
+            <UITextField name="phoneTxt" layout="margin:13,flex:1" attr="fontSize:14,color:black,textAlign:left,placeholder:请输入手机号,text:"/>
+
+            <UILabel name="" layout="height:1" attr="fontSize:14,@:css/colors,linesNum:0,text:"/>
+
+            <UIView layout="flexDirection:row,justifyContent:space-between" attr="">
+                <UITextField name="" layout="margin:13,flex:1" attr="fontSize:14,color:black,textAlign:left,placeholder:请输入验证码,text:"/>
+
+                <UILabel name="" layout="width:1" attr="fontSize:14,@:css/colors,linesNum:0,text:"/>
+                <FlexTouchView onPress="getCodeAction" layout="justifyContent:center" attr="underlayColor:darkGray">
+                    <UILabel name="codeTxt" layout="margin:13" attr="fontSize:14,color:#333333,linesNum:0,text:获取验证码"/>
+                </FlexTouchView>
+            </UIView>
+
+
+        </UIView>
+
+    </UIView>
+
+    <FlexTouchView onPress="doneAction" layout="margin:20,alignItems:center" attr="underlayColor:darkGray,bgColor:#1F263C,borderRadius:7">
+        <UILabel name="" layout="margin:12" attr="fontSize:14,color:white,linesNum:0,text:确定"/>
+    </FlexTouchView>
+
+
+
+
+
+</UIView>
+
+
+

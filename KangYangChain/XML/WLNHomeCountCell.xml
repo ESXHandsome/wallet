@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<UIView layout="" attr="@:css/colors">
+
+    <UIView layout="margin:10,marginBottom:0,flexDirection:row,alignItems:center" attr="bgColor:white,borderRadius:7,@:css/shadows">
+        <UIImageView attr="source:gonggao" layout="marginLeft:10"/>
+        <UILabel name="" layout="margin:10" attr="fontSize:15,color:red,linesNum:0,text:公告:近期比特币再次涨出新高度"/>
+    </UIView>
+
+    <UIView layout="flexDirection:row,margin:10,marginBottom:5,justifyContent:space-around" attr="bgColor:white,
+    borderRadius:7,@:css/shadows">
+
+
+        <FlexTouchView onPress="click:" layout="margin:10,justifyContent:center,alignItems:center,flex:1" attr="underlayColor:darkGray,
+        tag:0">
+            <UIImageView attr="source:rrr"/>
+            <UILabel name="" layout="marginTop:10" attr="fontSize:15,color:#333333,linesNum:0,text:交易所"/>
+        </FlexTouchView>
+
+        <FlexTouchView onPress="click:" layout="margin:10,justifyContent:center,alignItems:center,flex:1" attr="underlayColor:darkGray,
+        tag:1">
+            <UIImageView attr="source:www"/>
+            <UILabel name="" layout="marginTop:10" attr="fontSize:15,color:#333333,linesNum:0,text:商城"/>
+        </FlexTouchView>
+
+        <FlexTouchView onPress="click:" layout="margin:10,justifyContent:center,alignItems:center,flex:1" attr="underlayColor:darkGray,
+        tag:2">
+            <UIImageView attr="source:sss"/>
+            <UILabel name="" layout="marginTop:10" attr="fontSize:15,color:#333333,linesNum:0,text:社区"/>
+        </FlexTouchView>
+
+        <FlexTouchView onPress="click:" layout="margin:10,justifyContent:center,alignItems:center,flex:1" attr="underlayColor:darkGray,
+        tag:3">
+            <UIImageView attr="source:qqq"/>
+            <UILabel name="" layout="marginTop:10" attr="fontSize:15,color:#333333,linesNum:0,text:钱包"/>
+        </FlexTouchView>
+
+        <FlexTouchView onPress="click:" layout="margin:10,justifyContent:center,alignItems:center,flex:1" attr="underlayColor:darkGray,
+        tag:4">
+            <UIImageView attr="source:eee"/>
+            <UILabel name="" layout="marginTop:10" attr="fontSize:15,color:#333333,linesNum:0,text:商学院"/>
+        </FlexTouchView>
+  
+
+    </UIView>
+
+
+
+</UIView>

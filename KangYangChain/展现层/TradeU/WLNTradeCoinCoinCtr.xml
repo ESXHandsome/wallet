@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!--
+   WLNTradeCoinCoinCtr.xml
+   KangYangChain
+
+   Created by edz on 2018/10/22.
+   Copyright (c) 2018 furao. All rights reserved.
+-->
+
+<UIView layout="flex:1" attr="bgColor:blue">
+
+    <UIView layout="flexDirection:row" attr="">
+        <FlexTouchView onPress="" layout="" attr="underlayColor:darkGray,bgColor:lightGray">
+            <UILabel name="" layout="" attr="fontSize:14,color:#333333,linesNum:0,text:币币"/>
+        </FlexTouchView>
+        <FlexTouchView onPress="" layout="" attr="underlayColor:darkGray,bgColor:lightGray">
+            <UILabel name="" layout="" attr="fontSize:14,color:#333333,linesNum:0,text:杠杆"/>
+        </FlexTouchView>
+    </UIView>
+
+    <UIView layout="height:40,marginTop:10" attr="bgColor:red">
+    
+    </UIView>
+    <UIView layout="marginTop:1" attr="bgColor:red">
+
+        <UIView layout="" attr="">
+
+            <UIView layout="" attr="">
+                <FlexTouchView onPress="" layout="" attr="underlayColor:darkGray,bgColor:lightGray">
+                    <UILabel name="" layout="" attr="fontSize:14,color:#333333,linesNum:0,text:买入"/>
+                </FlexTouchView>
+
+                <FlexTouchView onPress="" layout="" attr="underlayColor:darkGray,bgColor:lightGray">
+                    <UILabel name="" layout="" attr="fontSize:14,color:#333333,linesNum:0,text:卖出"/>
+                </FlexTouchView>
+            </UIView>
+
+            <UIView layout="" attr="">
+                <UILabel name="" layout="" attr="fontSize:14,color:#333333,linesNum:0,text:限时买入"/>
+            </UIView>
+            <UIView layout="height:80" attr="bgColor:red">
+
+
+            </UIView>
+
+            <UIView layout="height:40" attr="bgColor:yellow">
+            
+            </UIView>
+            <UILabel name="" layout="" attr="fontSize:14,color:#333333,linesNum:0,text:可用0.00 UDST"/>
+            <UILabel name="" layout="" attr="fontSize:14,color:#333333,linesNum:0,text:0.00 BTC"/>
+
+            <FlexTouchView onPress="" layout="" attr="underlayColor:darkGray,bgColor:lightGray">
+                <UILabel name="" layout="" attr="fontSize:14,color:#333333,linesNum:0,text:买入btc"/>
+            </FlexTouchView>
+
+
+
+        </UIView>
+
+
+        <UIView layout="" attr="">
+        
+            <UILabel name="" layout="" attr="fontSize:14,color:#333333,linesNum:0,text:"/>
+
+            <UILabel name="" layout="flex:1,height:1" attr="fontSize:14,color:#333333,linesNum:0,text:,bgColor:black"/>
+
+            <UIView layout="flexDirection:row" attr="">
+                <UILabel name="" layout="" attr="fontSize:14,color:#333333,linesNum:0,text:价格"/>
+                <UILabel name="" layout="" attr="fontSize:14,color:#333333,linesNum:0,text:数量"/>
+            </UIView>
+
+            <UIView layout="flexDirection:row" attr="">
+                <UILabel name="" layout="" attr="fontSize:14,color:#333333,linesNum:0,text:$4544.15"/>
+                <UILabel name="" layout="" attr="fontSize:14,color:#333333,linesNum:0,text:0,078"/>
+            </UIView>
+            <UIView layout="flexDirection:row" attr="">
+                <UILabel name="" layout="" attr="fontSize:14,color:#333333,linesNum:0,text:$4544.15"/>
+                <UILabel name="" layout="" attr="fontSize:14,color:#333333,linesNum:0,text:0,078"/>
+            </UIView>
+            <UIView layout="flexDirection:row" attr="">
+                <UILabel name="" layout="" attr="fontSize:14,color:#333333,linesNum:0,text:$4544.15"/>
+                <UILabel name="" layout="" attr="fontSize:14,color:#333333,linesNum:0,text:0,078"/>
+            </UIView>
+            <UIView layout="flexDirection:row" attr="">
+                <UILabel name="" layout="" attr="fontSize:14,color:#333333,linesNum:0,text:$4544.15"/>
+                <UILabel name="" layout="" attr="fontSize:14,color:#333333,linesNum:0,text:0,078"/>
+            </UIView>
+
+            <UILabel name="" layout="flex:1,height:1" attr="fontSize:14,color:#333333,linesNum:0,text:,bgColor:black"/>
+
+
+            <UIView layout="flexDirection:row,justifyContent:space-between" attr="">
+                <UILabel name="" layout="" attr="fontSize:14,color:#333333,linesNum:0,text:"/>
+                <UILabel name="" layout="" attr="fontSize:14,color:#333333,linesNum:0,text:"/>
+            </UIView>
+
+
+
+        </UIView>
+    
+    </UIView>
+
+
+
+
+
+</UIView>

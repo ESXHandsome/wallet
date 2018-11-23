@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!--
+   WLNAdressCell.xml
+   KangYangChain
+
+   Created by edz on 2018/11/17.
+   Copyright (c) 2018 furao. All rights reserved.
+-->
+
+
+<UIView layout="" attr="@:css/colors">
+
+    <UIView layout="margin:10,flexDirection:row" attr="bgColor:white,borderRadius:7,@:css/shadows">
+    
+        <UIImageView attr="source:"/>
+
+        <UIView layout="" attr="">
+
+            <UIView layout="" attr="">
+                <UILabel name="" layout="" attr="fontSize:14,color:#333333,linesNum:0,text:xxx地址"/>
+                <UILabel name="" layout="" attr="fontSize:14,color:#333333,linesNum:0,text:USDT"/>
+
+            </UIView>
+
+            <UILabel name="" layout="" attr="fontSize:14,color:#333333,linesNum:0,text:xxxxxxxxxxxxxxxxxxxxx"/>
+        </UIView>
+
+        <UIImageView attr="source:"/>
+
+    </UIView>
+</UIView>

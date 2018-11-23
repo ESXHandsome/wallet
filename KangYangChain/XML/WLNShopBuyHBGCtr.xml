@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+
+<UIView layout="margin:10" attr="bgColor:white">
+
+
+    <UIView layout="alignItems:center" attr="">
+        <UIImageView attr="source:Snip20181010_30" layout="marginTop:20"/>
+
+        <UILabel name="" layout="marginTop:20" attr="fontSize:14,color:#333333,linesNum:0,text:EHJKHFJKDSHFJDKSHFJKSHFJKDJFSDS"/>
+
+        <FlexTouchView onPress="" layout="width:200,height:40,marginTop:20,justifyContent:center,alignItems:center" attr="bgColor:#DB3343,
+        borderRadius:20">
+        <UILabel name="" layout="" attr="fontSize:17,color:white,linesNum:0,text:点击复制"/>
+        </FlexTouchView>
+
+    </UIView>
+
+
+
+    <UILabel name="" layout="margin:10,height:2" attr="fontSize:14,@:css/colors,linesNum:0,text:"/>
+
+
+    <UIView layout="" attr="">
+    
+    
+        <UILabel name="" layout="margin:5,marginLeft:15" attr="textAlign:left, fontSize:14,color:#333333,linesNum:0,text:禁止向BTC地址充值除BTC之外的资产,任何人冲入BTC地址的非BTC资产不可找回"/>  
+        <UILabel name="" layout="margin:5,marginLeft:15" attr="fontSize:14,color:#333333,linesNum:0,text:使用BTC地址充值需要1个网络确认才能到账"/>
+        <UILabel name="" layout="margin:5,marginLeft:15" attr="fontSize:14,color:#333333,linesNum:0,text:默认充值至我的钱包,若想进行币币交易,可在钱包账户操作资金转换 "/>
+
+    </UIView>
+
+</UIView>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!--
+   WLNTradeTradeBodyCell.xml
+   KangYangChain
+
+   Created by edz on 2018/11/5.
+   Copyright (c) 2018 furao. All rights reserved.
+-->
+<UIView layout="flexDirection:row,justifyContent:space-around" attr="">
+
+    <UILabel name="timeLab" layout="width:25%,marginTop:13" attr="fontSize:15,color:#333333,linesNum:1,text:0:00:00,
+    textAlign:center"/>
+    <UILabel name="typeLab" layout="width:25%,marginTop:13" attr="fontSize:15,color:red,linesNum:1,text:买?,
+    textAlign:center"/>
+    <UILabel name="priceLab" layout="width:25%,marginTop:13" attr="fontSize:15,color:#333333,linesNum:1,text:0.00,
+    textAlign:center"/>
+    <UILabel name="numLab" layout="width:25%,marginTop:13" attr="fontSize:15,color:#333333,linesNum:1,text:0,
+    textAlign:center"/>
+
+</UIView>
